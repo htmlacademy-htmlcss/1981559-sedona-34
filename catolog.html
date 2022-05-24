@@ -130,17 +130,72 @@
       <section class="sorting">
         <h2 class="visually-hidden">Сортировка Гостиниц</h2>
         <p class="hotels-found">Найдено гостиниц:<span class="hotels-found-number">38</span>></p>
+        <!-- Добавлен span для изменения количества найденых гостиниц. -->
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешёвое</option>
           <option value="popular">Сначала популярное</option>
           <option value="expensive">Сначала дорогое</option>
         </select>
-        <a href="#" class="button button-light">
-          <span class="visually-hidden">Показать список</span>
-        </a>
-        <a class="button" href="#">
+        <a class="sorting-button selected-button" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
+        <a class="sorting-button" href="#">
+          <span class="visually-hidden">Показать крупные карточки</span>
+        </a>
+        <a class="sorting-button" href="#">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+       </section>
+
+       <section class="all-hotels">
+        <h2 class="visually-hidden">Список гостиниц</h2>
+        <ul class="list-of-hotels">
+          <li class="hotel-card">
+            <a class="hotel-card-link" href="#">
+              <img class="hotel-card-image" src="#" alt="Вид из ущелья скал на звёздное небо">
+              <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+            </a>
+            <p class="type-and-price-of-hotel">
+              <span class="type-of-hotel hotel">Гостиница</span>
+              <span class="hotel-card-price">От 4000 ₽</span>
+            </p>
+            <a class="button button-more-detailed" href="#">Подробнее</a>
+            <button class="to-favorites-button" type="button"><span class="not-selected-text-in-button">В избранное</span></button>
+            <div class="rating-result">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="empty"></span>
+            </div>
+            <div class="rating-section">
+              <p class="rating-number">Рейтинг:<span class="rating-value">8,5</span></p>
+            </div>
+          </li>
+          <li class="hotel-card">
+            <a class="hotel-card-link" href="#">
+              <img class="hotel-card-image" src="#" alt="Горы с радугой">
+              <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
+            </a>
+            <p class="type-and-price-of-hotel">
+              <span class="type-of-hotel hotel">Гостиница</span>
+              <span class="hotel-card-price">От 5000 ₽</span>
+            </p>
+            <a class="button button-more-detailed" href="#">Подробнее</a>
+            <button class="to-favorites-button selected-favorite-button" type="button"><span class="selected-text-in-button">В избранном</span>></button>
+            <div class="rating-result">
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="active"></span>
+              <span class="empty"></span>
+            </div>
+            <div class="rating-section">
+              <p class="rating-number">Рейтинг:<span class="rating-value">9,2</span></p>
+            </div>
+          </li>
+          <!-- конец списка -->
+        </ul>
        </section>
     </main>
 
