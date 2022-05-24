@@ -136,7 +136,7 @@
           <option value="popular">Сначала популярное</option>
           <option value="expensive">Сначала дорогое</option>
         </select>
-        <a class="sorting-button selected-button" href="#">
+        <a class="sorting-button selected-button">
           <span class="visually-hidden">Показать карточки</span>
         </a>
         <a class="sorting-button" href="#">
@@ -238,9 +238,47 @@
               <p class="rating-number">Рейтинг:<span class="rating-value">5,0</span></p>
             </div>
           </li>
-          <!-- конец списка -->
         </ul>
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a class="pagination-link pagination-current">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">4</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link pagination-all" href="#">...</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">10</a>
+          </li>
+        </ul>
+        <span class="number-of-hottels">Гостиниц на странице:</span>
+        <select class="select-number-of-hotels" aria-label="Гостиниц на странице">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
        </section>
+       <section class="newsletter-without-backgorund">
+        <!-- здесь нет background -->
+        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+        <p class="newsletter-words">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="newsletter-email">Email</label>
+          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="button newsletter-button" type="submit">
+            <span class="button-subscribe">Подписаться</span>
+          </button>
+        </form>
+      </section>
     </main>
 
     <footer class="main-footer">
