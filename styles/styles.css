@@ -22,6 +22,7 @@ body {
   color: #000000;
 }
 
+/* Хедер */
 .main-header {
   background-color: #FFFFFF;
   color: #000000;
@@ -48,6 +49,7 @@ body {
   background-color: #756157;
 }
 
+/* Основное содержание страницы */
 .main-index {
   text-align: center;
   background-color: #FFFFFF;
@@ -55,6 +57,7 @@ body {
 
 .welcome-part {
   color: #000000;
+  background-color: #F2F2F2;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -71,7 +74,7 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
-
+/* Преимущества */
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -102,6 +105,7 @@ background: rgba(131, 179, 211, 0.12);
 background: rgba(131, 179, 211, 0.2);
 }
 
+/* Переход на страницу поиска гостиниц в Седоне */
 .hotel-search-question {
   font-weight: 700;
   font-size: 30px;
@@ -123,10 +127,13 @@ background: rgba(131, 179, 211, 0.2);
   text-decoration: none;
 }
 
+/* Поле подписки */
 .newsletter {
-  background-image: url("../images/subscribe-backgrund.jpg");
   background-color: #82B3D3;
   color: #FFFFFF;
+  background-image: url("../images/subscribe-backgrund.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .newsletter-title {
@@ -147,6 +154,7 @@ font-size: 20px;
 line-height: 36px;
 }
 
+/* Футер */
 .main-footer {
   background-color: #FFFFFF;
 }
@@ -160,3 +168,26 @@ line-height: 36px;
   line-height: 40px;
   text-transform: uppercase;
 }
+
+/* Далее идет страница с каталогом гостниц */
+
+/* Фильтр */
+.inner-header {
+  background-color: #F2F2F2;
+  color: #FFFFFF;
+  background-image: url("../images/breadcrumbs/filter-backgrund.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
