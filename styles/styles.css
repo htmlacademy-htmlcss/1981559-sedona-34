@@ -72,4 +72,91 @@ body {
   line-height: 26px;
 }
 
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
 
+.item-with-image {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+/* Требуется прозрачность согласно макету. */
+.aditional-advantages-item {
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.aditional-advantages-item:nth-child(2n) {
+  background-color: #FFFFFF;
+}
+
+.advantages-item:nth-child(n+2):nth-child(2n+1) {
+background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(n+3) {
+background: rgba(131, 179, 211, 0.2);
+}
+
+.hotel-search-question {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-search-words {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.newsletter {
+  background-image: url("../images/subscribe-backgrund.jpg");
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+newsletter-words {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.newsletter-button {
+font-size: 20px;
+line-height: 36px;
+}
+
+.main-footer {
+  background-color: #FFFFFF;
+}
+
+.footer-number-link {
+  color:#000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
