@@ -41,6 +41,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   background-color: #82B3D3;
+  border: none;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -191,5 +192,26 @@ newsletter-words {
 .breadcrumbs-link {
   color: #FFFFFF;
   text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
 
+.filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/* Настройки инфраструктуры и типа жилья */
+.control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.discard-button {
+
+font-weight: 400;
+text-transform: none;
+}
