@@ -71,6 +71,7 @@ body {
 }
 
 .five-reasons {
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
@@ -150,8 +151,9 @@ newsletter-words {
 }
 
 .newsletter-button {
-font-size: 20px;
-line-height: 36px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 /* Футер */
