@@ -23,7 +23,7 @@ body {
 }
 
 .main-header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -33,4 +33,45 @@ body {
   line-height: 26px;
   color: #000000;
   text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.button.navigation-link {
+  background-color: #756157;
+}
+
+.main-index {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.welcome-part {
+  color: #000000;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.sedona-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.five-reasons {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-list {
+  background-color: #82B3D3;
 }
