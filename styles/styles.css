@@ -37,6 +37,7 @@ body {
 }
 
 /* Все кнопки */
+/* Для исправления наследования шрифта в кнопках использую inherit */
 .button {
   font-family: inherit;
   font-weight: 700;
