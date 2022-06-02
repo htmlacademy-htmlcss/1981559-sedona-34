@@ -56,6 +56,7 @@ body {
 /* Основное содержание страницы */
 .main-index {
   text-align: center;
+  color: #000000;
   background-color: #FFFFFF;
 }
 
@@ -225,6 +226,7 @@ newsletter-words {
 /* Сортировка гостиниц */
 .sorting {
   background-color: #FFFFFF;
+  color: #000000;
 }
 
 .hotels-found {
@@ -276,6 +278,7 @@ newsletter-words {
   line-height: 20px;
   text-transform: uppercase;
   background-color: #F2F2F2;
+  color: #333333;
 }
 
 .selected-favorite-button {
