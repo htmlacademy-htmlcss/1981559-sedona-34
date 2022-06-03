@@ -162,7 +162,7 @@ background: rgba(131, 179, 211, 0.2);
   text-transform: uppercase;
 }
 
-newsletter-words {
+.newsletter-words {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
