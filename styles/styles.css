@@ -89,7 +89,6 @@ body {
 }
 
 .five-reasons {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
@@ -133,7 +132,6 @@ background: rgba(131, 179, 211, 0.2);
 }
 
 .hotel-search-words {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
@@ -163,7 +161,6 @@ background: rgba(131, 179, 211, 0.2);
 }
 
 .newsletter-words {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
@@ -183,7 +180,6 @@ background: rgba(131, 179, 211, 0.2);
   color:#000000;
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
@@ -209,7 +205,6 @@ background: rgba(131, 179, 211, 0.2);
 .breadcrumbs-link {
   color: #FFFFFF;
   text-decoration: none;
-  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
 }
@@ -222,7 +217,6 @@ background: rgba(131, 179, 211, 0.2);
 
 /* Настройки инфраструктуры и типа жилья */
 .control {
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
@@ -251,7 +245,7 @@ background: rgba(131, 179, 211, 0.2);
 
 /* Селектор для сортировки по ценнику */
 .select-control {
-  font-weight: 400;
+  font-family: inherit;
   font-size: 18px;
   line-height: 21px;
 }
@@ -274,7 +268,6 @@ background: rgba(131, 179, 211, 0.2);
 }
 
 .type-and-price-of-hotel {
-  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
@@ -286,7 +279,6 @@ background: rgba(131, 179, 211, 0.2);
 
 /* Число рейтинга отеля*/
 .rating-section {
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
@@ -320,7 +312,7 @@ background: rgba(131, 179, 211, 0.2);
 }
 
 .select-number-of-hotels {
-  font-weight: 400;
+  font-family: inherit;
   font-size: 18px;
   line-height: 21px;
   color: #333333
