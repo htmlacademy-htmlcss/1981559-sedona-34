@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
 
@@ -22,7 +23,7 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link-current" href="#">Гостиницы</a>
+            <a class="navigation-link current" href="#">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
@@ -56,7 +57,9 @@
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="#">
-              <img class="breadcrumbs-link-image" src="images/breadcrumbs/go-to-main.svg" width="12" height="12" alt="Главная.">
+              <span class="visually-hidden">
+                На главную страницу фильтрации.
+                </span>
             </a>
           </li>
           <li class="breadcrumbs-item">
@@ -69,7 +72,7 @@
           <h2 class="visually-hidden">Фильтр Гостиниц Седоны</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="infrastructure-filter-group">
-              <legend class="infrastructure-filter-title">Инфраструктура:</legend>
+              <legend class="infrastructure filter-title">Инфраструктура:</legend>
                 <ul class="infrastructure-filter-list">
                   <li class="infrastructure-filter-item">
                     <label class="control">
@@ -93,7 +96,7 @@
             </fieldset>
 
             <fieldset class="hotel-type-filter-group">
-              <legend class="hotel-type-filter-title">Тип Жилья:</legend>
+              <legend class="hotel-type filter-title">Тип Жилья:</legend>
                 <ul class="hotel-type-filter-list">
                   <li class="hotel-type-filter-item">
                     <label class="control">
@@ -120,7 +123,7 @@
             </fieldset>
 
             <fieldset class="cost">
-              <legend class="cost">Стоимость</legend>
+              <legend class="cost filter-title">Стоимость, ₽:</legend>
                 <!-- Здесь будет окно деапазона стоимости и ДВОЙНОЙ ползунок. JS не трогаю пока что. -->
             </fieldset>
 
@@ -136,12 +139,12 @@
       <!-- Сортировка гостиниц -->
       <section class="sorting">
         <h2 class="visually-hidden">Сортировка Гостиниц</h2>
-        <p class="hotels-found">Найдено гостиниц:<span class="hotels-found-number">38</span>></p>
+        <p class="hotels-found">Найдено гостиниц: <span class="hotels-found-number">38</span></p>
         <!-- Добавлен span для изменения количества найденых гостиниц. -->
         <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвое</option>
-          <option value="popular">Сначала популярное</option>
-          <option value="expensive">Сначала дорогое</option>
+          <option value="cheap">Сначала дешевые</option>
+          <option value="popular">Сначала популярные</option>
+          <option value="expensive">Сначала дорогие</option>
         </select>
         <a class="sorting-button selected-button" href="#">
           <span class="visually-hidden">Показать карточки</span>
@@ -168,14 +171,14 @@
               <span class="hotel-card-price">От 4000 ₽</span>
             </p>
             <a class="button button-more-detailed" href="#">Подробнее</a>
-            <button class="to-favorites-button" type="button">
+            <button class="button" type="button">
               В избранное
             </button>
             <div class="stars stars-4">
               <!-- Здесь backgound 4-stars -->
             </div>
             <div class="rating-section">
-              <p class="rating-number">Рейтинг:<span class="rating-value">8,5</span></p>
+              <p class="rating-number">Рейтинг: <span class="rating-value">8,5</span></p>
             </div>
           </li>
           <li class="hotel-card">
@@ -188,14 +191,14 @@
               <span class="hotel-card-price">От 5000 ₽</span>
             </p>
             <a class="button button-more-detailed" href="#">Подробнее</a>
-            <button class="to-favorites-button selected-favorite-button" type="button">
+            <button class="button selected-favorite-button" type="button">
               В избранном
             </button>
             <div class="stars stars-4">
               <!-- Здесь backgound 4-stars -->
             </div>
             <div class="rating-section">
-              <p class="rating-number">Рейтинг:<span class="rating-value">9,2</span></p>
+              <p class="rating-number">Рейтинг: <span class="rating-value">9,2</span></p>
             </div>
           </li>
           <li class="hotel-card">
@@ -208,14 +211,14 @@
               <span class="hotel-card-price">От 2500 ₽</span>
             </p>
             <a class="button button-more-detailed" href="#">Подробнее</a>
-            <button class="to-favorites-button" type="button">
+            <button class="button" type="button">
               В избранное
             </button>
             <div class="stars stars-3">
               <!-- Здесь backgound 3-stars -->
             </div>
             <div class="rating-section">
-              <p class="rating-number">Рейтинг:<span class="rating-value">6,9</span></p>
+              <p class="rating-number">Рейтинг: <span class="rating-value">6,9</span></p>
             </div>
           </li>
           <li class="hotel-card">
@@ -228,14 +231,14 @@
               <span class="hotel-card-price">От 1500 ₽</span>
             </p>
             <a class="button button-more-detailed" href="#">Подробнее</a>
-            <button class="to-favorites-button" type="button">
+            <button class="button" type="button">
               В избранное
             </button>
             <div class="stars stars-2">
               <!-- Здесь backgound 2-stars -->
             </div>
             <div class="rating-section">
-              <p class="rating-number">Рейтинг:<span class="rating-value">5,0</span></p>
+              <p class="rating-number">Рейтинг: <span class="rating-value">5,0</span></p>
             </div>
           </li>
         </ul>
@@ -264,7 +267,7 @@
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
-          <option value="4">4</option>
+          <option value="4" selected>4</option>
         </select>
        </section>
 

@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+/* Хедер */
+.main-header {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Все кнопки */
+/* Для исправления наследования шрифта в кнопках использую inherit */
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82B3D3;
+  border: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button.navigation-link {
+  background-color: #756157;
+}
+
+/* Основное содержание страницы */
+.main-index {
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.welcome-part {
+  color: #000000;
+  background-color: #F2F2F2;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.sedona-description {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.five-reasons {
+  font-size: 22px;
+  line-height: 26px;
+}
+/* Преимущества */
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.item-with-image {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+/* Требуется прозрачность согласно макету. */
+.aditional-advantages-item {
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.aditional-advantages-item:nth-child(2n) {
+  background-color: #FFFFFF;
+}
+
+.advantages-item:nth-child(n+2):nth-child(2n+1) {
+background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(n+3) {
+background: rgba(131, 179, 211, 0.2);
+}
+
+/* Переход на страницу поиска гостиниц в Седоне */
+.hotel-search-question {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hotel-search-words {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+/* Поле подписки */
+.newsletter {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  background-image: url("../images/subscribe-backgrund.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.newsletter-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.newsletter-words {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.newsletter-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+/* Футер */
+.main-footer {
+  background-color: #FFFFFF;
+}
+
+.footer-number-link {
+  color:#000000;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+/* Далее идет страница с каталогом гостниц */
+
+/* Фильтр */
+.inner-header {
+  background-color: #F2F2F2;
+  color: #FFFFFF;
+  background-image: url("../images/breadcrumbs/filter-backgrund.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/* Настройки инфраструктуры и типа жилья */
+.control {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Конопка сброса настроек фильтра */
+.discard-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+  background-color: transparent;
+}
+
+/* Сортировка гостиниц */
+.sorting {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.hotels-found {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Селектор для сортировки по ценнику */
+.select-control {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Карточки отелей */
+.all-hotels {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.hotel-card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hotel-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.type-and-price-of-hotel {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Кнопка "Подробнее" */
+.button-more-detailed {
+  background-color:  #756157;
+}
+
+/* Число рейтинга отеля*/
+.rating-section {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+  color: #333333;
+}
+
+.selected-favorite-button {
+ background-color:  #7DB54F;
+}
+
+/* Пагинация */
+.pagination-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+/* Текущая страница */
+.pagination-current {
+  color:#000000;
+  background-color: #F2F2F2;
+}
+
+/* Гостиниц на странице */
+.number-of-hottels {
+ color: #333333;
+}
+
+.select-number-of-hotels {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333
+}
+
