@@ -14,6 +14,10 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -32,12 +36,29 @@ body {
   line-height: 21px;
   background-color: #F2F2F2;
   color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex-grow: 1;
 }
 
 /* Хедер */
 .main-header {
   background-color: #FFFFFF;
   color: #000000;
+}
+
+/* Навигация */
+
+.navigation {
+display: flex;
+width: 940px;
+margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-link {
