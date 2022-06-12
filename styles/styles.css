@@ -143,6 +143,16 @@ body {
   width: 1200px;
 }
 
+.container-with-image {
+  display: flex;
+}
+
+.container-with-description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 85px;
+}
+
 .aditional-advantages-list {
   margin: 0;
   padding: 0;
