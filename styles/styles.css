@@ -144,7 +144,11 @@ body {
 }
 
 .aditional-advantages-list {
+  margin: 0;
+  padding: 0;
   display: flex;
+  background-color: #FFFFFF;
+
 }
 
 /* Требуется прозрачность согласно макету. */
