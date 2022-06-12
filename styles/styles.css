@@ -70,7 +70,6 @@ body {
 }
 
 /* Все кнопки */
-/* Для исправления наследования шрифта в кнопках использую inherit */
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -92,6 +91,10 @@ body {
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .welcome-part {
