@@ -233,6 +233,12 @@ body {
   background-color: #FFFFFF;
 }
 
+.page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
 .footer-number-link {
   color: #000000;
   text-decoration: none;
