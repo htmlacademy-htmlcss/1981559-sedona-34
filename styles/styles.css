@@ -37,6 +37,7 @@ body {
   width: 1200px;
 }
 
+
 /* Хедер */
 .main-header {
   background-color: #FFFFFF;
@@ -99,7 +100,7 @@ body {
 }
 
 .main-inner-container {
-  padding: 35px 70px 70px 70px;
+  padding: 35px 70px 0 70px;
 }
 
 .inner-header-title {
@@ -122,19 +123,20 @@ body {
   margin-right: 220px;
 }
 
+/* поле с ценой */
+.cost {
+  width: 185px;
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
+}
+
 .welcome-part {
   color: #000000;
   background-color: #F2F2F2;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-}
-
-.cost {
-  width: 185px;
-  margin: 0;
-  padding: 0;
-  margin-right: 70px;
 }
 
 .sedona-description {
@@ -147,6 +149,15 @@ body {
 .five-reasons {
   font-size: 22px;
   line-height: 26px;
+}
+
+.sorting {
+display: flex;
+}
+
+.list-of-hotels {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Преимущества */
@@ -257,6 +268,27 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+}
+
+.newsletter-without-backgorund {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  margin: ;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination-item {
+  padding-right: 8px;
 }
 
 /* Футер */
