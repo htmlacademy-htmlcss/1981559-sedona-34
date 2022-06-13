@@ -98,12 +98,43 @@ body {
   flex-grow: 1;
 }
 
+.main-inner-container {
+  padding: 35px 70px 70px 70px;
+}
+
+.inner-header-title {
+  margin: 0;
+}
+
+.catalog-filter {
+  display: flex;
+}
+
+.infrastructure-filter-group {
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
+}
+
+.hotel-type-filter-group {
+  margin: 0;
+  padding: 0;
+  margin-right: 220px;
+}
+
 .welcome-part {
   color: #000000;
   background-color: #F2F2F2;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.cost {
+  width: 185px;
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
 }
 
 .sedona-description {
