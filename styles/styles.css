@@ -14,10 +14,8 @@
   font-display: swap;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+html {
+  height: 100%;
 }
 
 img {
@@ -26,18 +24,43 @@ img {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   background-color: #F2F2F2;
   color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex-grow: 1;
+  width: 1200px;
 }
+
 
 /* Хедер */
 .main-header {
   background-color: #FFFFFF;
   color: #000000;
+}
+
+/* Навигация */
+
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 550px;
+}
+
+.navigation-user {
+  max-width: 250px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -49,7 +72,6 @@ body {
 }
 
 /* Все кнопки */
-/* Для исправления наследования шрифта в кнопках использую inherit */
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -73,6 +95,42 @@ body {
   background-color: #FFFFFF;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
+.main-inner-container {
+  padding: 35px 70px 0 70px;
+}
+
+.inner-header-title {
+  margin: 0;
+}
+
+.catalog-filter {
+  display: flex;
+}
+
+.infrastructure-filter-group {
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
+}
+
+.hotel-type-filter-group {
+  margin: 0;
+  padding: 0;
+  margin-right: 220px;
+}
+
+/* поле с ценой */
+.cost {
+  width: 185px;
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
+}
+
 .welcome-part {
   color: #000000;
   background-color: #F2F2F2;
@@ -92,6 +150,16 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+
+.sorting {
+display: flex;
+}
+
+.list-of-hotels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Преимущества */
 .advantages-title {
   font-weight: 700;
@@ -100,15 +168,46 @@ body {
   text-transform: uppercase;
 }
 
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  width: 400px;
+}
+
 .item-with-image {
   color: #FFFFFF;
   background-color: #82B3D3;
+  width: 1200px;
+}
+
+.container-with-image {
+  display: flex;
+}
+
+.container-with-description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 85px;
+}
+
+.aditional-advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #FFFFFF;
+
 }
 
 /* Требуется прозрачность согласно макету. */
 .aditional-advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
+  width: 400px;
 }
 
 .aditional-advantages-item:nth-child(2n) {
@@ -116,11 +215,11 @@ body {
 }
 
 .advantages-item:nth-child(n+2):nth-child(2n+1) {
-background: rgba(131, 179, 211, 0.12);
+  background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item:nth-child(n+3) {
-background: rgba(131, 179, 211, 0.2);
+  background: rgba(131, 179, 211, 0.2);
 }
 
 /* Переход на страницу поиска гостиниц в Седоне */
@@ -171,13 +270,39 @@ background: rgba(131, 179, 211, 0.2);
   line-height: 36px;
 }
 
+.newsletter-without-backgorund {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination-item {
+  padding-right: 8px;
+}
+
 /* Футер */
 .main-footer {
   background-color: #FFFFFF;
 }
 
+.page-footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
 .footer-number-link {
-  color:#000000;
+  color: #000000;
   text-decoration: none;
   font-style: normal;
   font-size: 40px;
@@ -274,7 +399,7 @@ background: rgba(131, 179, 211, 0.2);
 
 /* Кнопка "Подробнее" */
 .button-more-detailed {
-  background-color:  #756157;
+  background-color: #756157;
 }
 
 /* Число рейтинга отеля*/
@@ -287,7 +412,7 @@ background: rgba(131, 179, 211, 0.2);
 }
 
 .selected-favorite-button {
- background-color:  #7DB54F;
+  background-color: #7DB54F;
 }
 
 /* Пагинация */
@@ -302,13 +427,13 @@ background: rgba(131, 179, 211, 0.2);
 
 /* Текущая страница */
 .pagination-current {
-  color:#000000;
+  color: #000000;
   background-color: #F2F2F2;
 }
 
 /* Гостиниц на странице */
 .number-of-hottels {
- color: #333333;
+  color: #333333;
 }
 
 .select-number-of-hotels {
@@ -317,4 +442,3 @@ background: rgba(131, 179, 211, 0.2);
   line-height: 21px;
   color: #333333
 }
-
