@@ -163,11 +163,11 @@ body {
 
 .welcome-part {
   color: #000000;
-  background-color: #F2F2F2;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   padding-top: 52px;
+  padding-bottom: 83px;
 }
 
 .sedona-description {
@@ -192,6 +192,10 @@ body {
 }
 
 /* Преимущества */
+.advantages {
+  padding-top: 63px;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
