@@ -76,17 +76,13 @@ body {
 }
 
 .navigation-link {
+  padding: 20px 17px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
   text-decoration: none;
   display: block;
-}
-
-.navigation-link {
-  padding: 20px 17px;
-  outline: 5px solid red;
 }
 
 /* Все кнопки */
@@ -170,7 +166,7 @@ body {
 }
 
 .sorting {
-display: flex;
+  display: flex;
 }
 
 .list-of-hotels {
