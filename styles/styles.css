@@ -115,6 +115,8 @@ body {
 }
 
 .button.navigation-link {
+  margin-top: 14px;
+  padding: 9px 15px;
   background-color: #756157;
 }
 
