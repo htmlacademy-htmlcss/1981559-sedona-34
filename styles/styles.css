@@ -68,11 +68,18 @@ body {
   width: 550px;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-user {
   max-width: 250px;
   margin-left: auto;
+  outline: green 4px solid;
+}
+
+.navigation-user .navigation-link {
+  min-width: 18px;
+  min-height: 18px;
 }
 
 .navigation-link {
@@ -151,6 +158,8 @@ body {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  outline: 3px solid green;
+  padding-top: 52px;
 }
 
 .sedona-description {
