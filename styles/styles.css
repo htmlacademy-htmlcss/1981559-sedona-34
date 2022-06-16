@@ -66,6 +66,8 @@ body {
   margin: 0;
   padding: 0;
   width: 550px;
+  list-style-type: none;
+  display: flex;
 }
 
 .navigation-user {
@@ -79,6 +81,12 @@ body {
   line-height: 26px;
   color: #000000;
   text-decoration: none;
+  display: block;
+}
+
+.navigation-link {
+  padding: 20px 17px;
+  outline: 5px solid red;
 }
 
 /* Все кнопки */
