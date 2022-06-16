@@ -307,6 +307,7 @@ body {
 
 .button-hotel {
   margin: 56px auto 93px;
+  padding: 12px;
   display: block;
   width: 574px;
   font-weight: 700;
@@ -326,6 +327,8 @@ body {
 }
 
 .newsletter-title {
+  margin: 0;
+  padding-top: 94px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -333,14 +336,29 @@ body {
 }
 
 .newsletter-words {
+  margin: 0;
+  margin-top: 29px;
   font-size: 22px;
   line-height: 26px;
 }
 
+.newsletter-form {
+  margin-top: 46px;
+  padding-bottom: 94px;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  border: none;
+}
+
 .newsletter-button {
+  padding: 12px 15px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  width: 200px;
 }
 
 .newsletter-without-backgorund {
