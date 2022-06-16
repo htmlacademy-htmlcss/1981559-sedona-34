@@ -290,6 +290,8 @@ body {
 
 /* Переход на страницу поиска гостиниц в Седоне */
 .hotel-search-question {
+  margin: 0;
+  margin-top: 91px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -297,11 +299,16 @@ body {
 }
 
 .hotel-search-words {
+  margin: 0;
+  margin-top: 29px;
   font-size: 22px;
   line-height: 26px;
 }
 
 .button-hotel {
+  margin: 56px auto 93px;
+  display: block;
+  width: 574px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
