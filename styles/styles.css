@@ -99,7 +99,8 @@ body {
 }
 
 .navigation-logo {
-  margin-right: 47px;
+  z-index: 1;
+  margin: 0 47px -5px 0;
 }
 
 .logo {
