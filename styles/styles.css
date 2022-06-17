@@ -34,7 +34,11 @@ body {
   flex-direction: column;
   min-height: 100%;
   flex-grow: 1;
+}
+
+.page-container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -354,7 +358,8 @@ body {
 .field {
   padding: 20px 491px 19px 22px;
   border: none;
-  background-color: #F2F2F2;;
+  background-color: #F2F2F2;
+  ;
 }
 
 .newsletter-button {
