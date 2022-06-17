@@ -78,6 +78,7 @@ body {
 .navigation-user {
   display: flex;
   justify-content: flex-end;
+  outline: 4px solid salmon;
 }
 
 .navigation-user .navigation-link {
