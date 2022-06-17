@@ -128,6 +128,7 @@ body {
 .button.navigation-link {
   margin-top: 14px;
   margin-left: 20px;
+  margin-bottom: 14px;
   padding: 9px 15px;
   background-color: #756157;
 }
@@ -204,7 +205,8 @@ body {
 }
 
 .five-reasons {
-  margin: 31px 0 90px 0;
+  margin: 0;
+  margin-top: 90px;
   font-size: 22px;
   line-height: 26px;
 }
@@ -220,7 +222,7 @@ body {
 
 /* Преимущества */
 .advantages {
-  padding-top: 63px;
+  margin-top: 63px;
 }
 
 .advantages-title {
@@ -241,6 +243,7 @@ body {
 
 .advantages-list {
   margin: 0;
+  margin-top: 90px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -330,7 +333,7 @@ body {
 }
 
 .button-hotel {
-  margin: 56px auto 93px;
+  margin: 56px auto 0;
   padding: 12px;
   display: block;
   width: 574px;
@@ -343,6 +346,7 @@ body {
 
 /* Поле подписки */
 .newsletter {
+  margin-top: 93px;
   background-color: #82B3D3;
   color: #FFFFFF;
   background-image: url("../images/subscribe-backgrund.jpg");
@@ -411,8 +415,6 @@ body {
 /* Футер */
 .main-footer {
   padding: 40px 70px 30px;
-  padding-top: 45px;
-  padding-bottom: 45px;
   background-color: #FFFFFF;
 }
 
