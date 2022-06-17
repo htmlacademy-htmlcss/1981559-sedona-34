@@ -193,8 +193,18 @@ body {
 .hotel-type-filter-group {
   margin: 0;
   padding: 0;
-  margin-right: 220px;
   border: none;
+}
+
+.hotel-type-filter-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.hotel-type-filter-item {
+  margin-top: 15px;
 }
 
 /* поле с ценой */
