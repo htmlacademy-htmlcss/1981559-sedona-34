@@ -392,6 +392,7 @@ body {
 
 /* Футер */
 .main-footer {
+  padding: 40px 70px 30px;
   padding-top: 45px;
   padding-bottom: 45px;
   background-color: #FFFFFF;
@@ -400,7 +401,25 @@ body {
 .page-footer-container {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  align-items: center;
+}
+
+.footer-social-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  min-width: 18px;
+  min-height: 14px;
+  /* временный бэкграунд до момента вставки SVG */
+  background-color: #82B3D3;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 27px;
 }
 
 .footer-number-link {
