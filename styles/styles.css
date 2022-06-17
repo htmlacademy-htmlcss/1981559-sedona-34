@@ -76,13 +76,20 @@ body {
 }
 
 .navigation-user {
-  max-width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 310px;
   margin-left: auto;
 }
 
 .navigation-user .navigation-link {
   min-width: 18px;
   min-height: 18px;
+}
+
+/* удалить после добавления SVG */
+.navigation-user .navigation-item:not(:last-child){
+  outline: #000000 solid 3px;
 }
 
 .navigation-link {
@@ -120,6 +127,7 @@ body {
 
 .button.navigation-link {
   margin-top: 14px;
+  margin-left: 20px;
   padding: 9px 15px;
   background-color: #756157;
 }
