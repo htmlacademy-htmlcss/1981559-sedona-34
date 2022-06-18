@@ -230,6 +230,10 @@ body {
   justify-content: flex-end;
 }
 
+.submit-discard-buttons .button {
+  width: 160px;
+}
+
 .welcome-part {
   color: #000000;
   background-image: url("../images/index-background.jpg");
@@ -266,9 +270,13 @@ body {
   display: flex;
 }
 
+/* Оставить для редактирования в GRID */
 .list-of-hotels {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
 }
 
 /* Преимущества */
@@ -450,17 +458,59 @@ body {
   text-align: center;
 }
 
+/* Пагинация */
 .pagination-container {
   display: flex;
   justify-content: space-between;
+  margin: 96px 72px 0;
 }
 
 .pagination {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   display: flex;
 }
 
-.pagination-item {
+.pagination-item:not(:last-child) {
   padding-right: 8px;
+}
+
+.pagination-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  padding: 12px 24px;
+  display: block;
+}
+
+/* Текущая страница */
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+/* Гостиниц на странице */
+.number-of-hottels {
+  color: #333333;
+}
+
+.select-number-of-hotels {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  width: 160px;
+  padding: 14px 20px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.number-of-hottels {
+  margin-right: 51px;
 }
 
 /* Футер */
@@ -611,6 +661,7 @@ body {
 .all-hotels {
   background-color: #FFFFFF;
   color: #000000;
+  padding: 0 72px;
 }
 
 .hotel-card-link {
@@ -645,32 +696,4 @@ body {
 
 .selected-favorite-button {
   background-color: #7DB54F;
-}
-
-/* Пагинация */
-.pagination-link {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-}
-
-/* Текущая страница */
-.pagination-current {
-  color: #000000;
-  background-color: #F2F2F2;
-}
-
-/* Гостиниц на странице */
-.number-of-hottels {
-  color: #333333;
-}
-
-.select-number-of-hotels {
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333
 }
