@@ -257,6 +257,13 @@ body {
 
 .sorting {
   display: flex;
+  justify-content: space-between;
+  padding: 62px 72px 56px;
+  outline: #7DB54F 3px solid;
+}
+
+.sorting-container {
+  display: flex;
 }
 
 .list-of-hotels {
@@ -573,6 +580,19 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
+}
+
+/* редактировать после добавления SVG */
+.sorting-button {
+  border: 2px solid #000000;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+}
+
+.sorting-button:not(:last-child) {
+  margin-right: 8px;
 }
 
 /* Селектор для сортировки по ценнику */
@@ -580,6 +600,11 @@ body {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 280px;
+  padding: 14px 20px;
+  margin-right: 78px;
 }
 
 /* Карточки отелей */

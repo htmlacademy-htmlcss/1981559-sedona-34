@@ -147,23 +147,29 @@
 
         <!-- Сортировка гостиниц -->
         <section class="sorting">
+
           <h2 class="visually-hidden">Сортировка Гостиниц</h2>
           <p class="hotels-found">Найдено гостиниц: <span class="hotels-found-number">38</span></p>
           <!-- Добавлен span для изменения количества найденых гостиниц. -->
-          <select class="select-control" aria-label="Сортировка">
-            <option value="cheap">Сначала дешевые</option>
-            <option value="popular">Сначала популярные</option>
-            <option value="expensive">Сначала дорогие</option>
-          </select>
-          <a class="sorting-button selected-button" href="#">
-            <span class="visually-hidden">Показать карточки</span>
-          </a>
-          <a class="sorting-button" href="#">
-            <span class="visually-hidden">Показать крупные карточки</span>
-          </a>
-          <a class="sorting-button" href="#">
-            <span class="visually-hidden">Показать список</span>
-          </a>
+
+          <div class="sorting-container">
+            <select class="select-control" aria-label="Сортировка">
+              <option value="cheap">Сначала дешевые</option>
+              <option value="popular">Сначала популярные</option>
+              <option value="expensive">Сначала дорогие</option>
+            </select>
+
+
+            <a class="sorting-button selected-button" href="#">
+              <span class="visually-hidden">Показать карточки</span>
+            </a>
+            <a class="sorting-button" href="#">
+              <span class="visually-hidden">Показать крупные карточки</span>
+            </a>
+            <a class="sorting-button" href="#">
+              <span class="visually-hidden">Показать список</span>
+            </a>
+          </div>
         </section>
 
         <!-- Список найденных гостиниц -->
