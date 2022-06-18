@@ -88,7 +88,7 @@ body {
 }
 
 /* удалить после добавления SVG */
-.navigation-user .navigation-item:not(:last-child){
+.navigation-user .navigation-item:not(:last-child) {
   outline: #000000 solid 3px;
 }
 
@@ -123,6 +123,7 @@ body {
   color: #FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 14px 15px;
 }
 
 .button.navigation-link {
@@ -153,12 +154,17 @@ body {
 }
 
 /* Настройка фильтра */
+.filter-container {
+  display: flex;
+}
+
 .hotels-filter {
   margin-top: 40px;
 }
 
 .catalog-filter {
   display: flex;
+  justify-content: space-between;
 }
 
 .filter-title {
@@ -209,15 +215,18 @@ body {
 
 /* поле с ценой */
 .cost {
-  width: 185px;
+  width: 288px;
   margin: 0;
-  padding: 0;
   margin-right: 70px;
+  padding: 0;
   border: none;
 }
 
 .submit-discard-buttons {
+  display: flex;
+  flex-direction: column;
   border: none;
+  justify-content: flex-end;
 }
 
 .welcome-part {
@@ -541,12 +550,15 @@ body {
 }
 
 /* Конопка сброса настроек фильтра */
+/* Кнопка сброса без padding, защита от случайного нажатия */
 .discard-button {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: none;
   background-color: transparent;
+  padding: 0;
+  margin-top: 20px;
 }
 
 /* Сортировка гостиниц */
