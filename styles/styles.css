@@ -124,6 +124,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 14px 15px;
+  border-radius: 4px;
 }
 
 .button.navigation-link {
@@ -690,18 +691,10 @@ body {
   margin: 0;
 }
 
-.type-and-price-of-hotel {
-  margin: 0;
-  font-size: 18px;
-  line-height: 21px;
-  grid-column: span 2;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 /* Кнопка "Подробнее" */
 .button-more-detailed {
   background-color: #756157;
+  text-align: center;
 }
 
 /* Число рейтинга отеля*/
