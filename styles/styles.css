@@ -271,11 +271,13 @@ body {
 
 /* Оставить для редактирования в GRID */
 .list-of-hotels {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
   margin: 0;
   padding: 20px;
   list-style-type: none;
+  outline: 3px lightgreen solid;
 }
 
 /* Преимущества */
@@ -662,6 +664,10 @@ body {
   background-color: #FFFFFF;
   color: #000000;
   padding: 0 72px;
+}
+
+.hotel-card {
+  outline: 3px solid salmon;
 }
 
 .hotel-card-link {
