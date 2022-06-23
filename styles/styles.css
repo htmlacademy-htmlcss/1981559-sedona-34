@@ -273,9 +273,9 @@ body {
 .list-of-hotels {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 18px;
+  column-gap: 18px;
   margin: 0;
-  padding: 20px;
+  padding: 0px;
   list-style-type: none;
   outline: 3px lightgreen solid;
 }
@@ -668,6 +668,7 @@ body {
 
 .hotel-card {
   outline: 3px solid salmon;
+  padding: 20px;
 }
 
 .hotel-card-link {
