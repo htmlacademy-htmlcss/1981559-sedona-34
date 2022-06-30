@@ -94,6 +94,7 @@ body {
 }
 
 .navigation-icon {
+  position: relative;
   display: block;
   padding: 24px 12px;
   text-decoration: none;
@@ -103,9 +104,9 @@ body {
 }
 
 .favorite-icon-value {
-  position: relative;
-  right: 10px;
-  bottom: 15px;
+  position: absolute;
+  left: 24px;
+  top: 15px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
