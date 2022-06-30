@@ -252,11 +252,18 @@ body {
 
 .welcome-part {
   color: #000000;
-  background-image: url("../images/index-background.jpg");
+  background-image: url("../images/divider.svg"), url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding-top: 52px;
-  padding-bottom: 83px;
+  background-position: bottom, top;
+  max-height: 485px;
+}
+
+.welcome-words {
+  display: inline-block;
+  text-align: center;
+  margin-top: 51px;
+  margin-bottom: 82px;
 }
 
 .sedona-description {
