@@ -78,23 +78,8 @@ body {
 .navigation-user {
   display: flex;
   justify-content: flex-end;
-  max-width: 315px;
+  max-width: 320px;
   margin-left: auto;
-}
-
-.navigation-user .navigation-link {
-  min-width: 18px;
-  min-height: 18px;
-}
-
-/* удалить после добавления SVG */
-.navigation-user .navigation-item:not(:last-child) {
-  outline: #000000 solid 3px;
-}
-
-.navigation-link {
-  background-image: url("images/header/search-icon.svg");
-  color: #000000;
 }
 
 .navigation-link {
@@ -105,6 +90,11 @@ body {
   color: #000000;
   text-decoration: none;
   display: block;
+}
+
+.navigation-icon {
+  display: block;
+  padding: 24px 12px;
 }
 
 .navigation-logo {
