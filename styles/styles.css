@@ -330,6 +330,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  counter-reset: section;
 }
 
 .advantages-item {
@@ -337,6 +338,13 @@ body {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+}
+
+.advantages-description::before {
+  counter-increment: section;
+  content: "— №" counter(section) " —";
+  display: block;
+  margin-bottom: 30px;
 }
 
 .item-without-image {
@@ -367,7 +375,6 @@ body {
   list-style-type: none;
 }
 
-/* Требуется прозрачность согласно макету. */
 .aditional-advantages-item {
   background-color: rgba(131, 179, 211, 0.12);
   color: #000000;
