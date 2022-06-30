@@ -385,12 +385,8 @@ body {
   align-items: center;
 }
 
-.aditional-advantages-icon {
-  margin-top: 80px;
-}
-
 .aditional.advantages-title {
-  margin-top: 30px;
+  margin-top: 182px;
 }
 
 .aditional-advantages-description {
@@ -409,6 +405,24 @@ body {
 
 .advantages-item:nth-child(n+3) {
   background: rgba(131, 179, 211, 0.2);
+}
+
+.housing-item {
+  background-image: url("../images/advantages/house-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 80px;
+}
+
+.food-item {
+  background-image: url("../images/advantages/food-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 80px;
+}
+
+.gifts-item {
+  background-image: url("../images/advantages/gift-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 80px;
 }
 
 /* Переход на страницу поиска гостиниц в Седоне */
