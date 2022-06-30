@@ -93,6 +93,11 @@ body {
 }
 
 .navigation-link {
+  background-image: url("images/header/search-icon.svg");
+  color: #000000;
+}
+
+.navigation-link {
   padding: 20px 17px;
   font-weight: 700;
   font-size: 20px;
@@ -112,7 +117,7 @@ body {
   display: block;
 }
 
-/* Все кнопки */
+/* Кнопки */
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -216,7 +221,7 @@ body {
   margin-top: 15px;
 }
 
-/* поле с ценой */
+/* Поле с ценой */
 .cost {
   width: 288px;
   margin: 0;
