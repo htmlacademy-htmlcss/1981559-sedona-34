@@ -385,6 +385,14 @@ body {
   align-items: center;
 }
 
+.aditional-advantages-icon {
+  margin-top: 80px;
+}
+
+.aditional.advantages-title {
+  margin-top: 30px;
+}
+
 .aditional-advantages-description {
   width: 230px;
   margin: 0;
