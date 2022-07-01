@@ -622,6 +622,17 @@ body {
   text-transform: uppercase;
 }
 
+.footer-number-link:hover {
+  color: #756157;
+}
+
+.footer-number-link:focus {
+  color: #756157;
+}
+.footer-number-link:active {
+color: rgba(117, 97, 87, 0.3);
+}
+
 /* Далее идет страница с каталогом гостниц */
 
 /* Фильтр */
