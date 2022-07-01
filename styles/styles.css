@@ -914,3 +914,16 @@ color: rgba(117, 97, 87, 0.3);
 .selected-favorite-button {
   background-color: #7DB54F;
 }
+
+/* Звезды */
+.stars-4 {
+  background-image: url(../images/hotels/stars/4-stars.svg);
+}
+
+.stars-3 {
+  background-image: url(../images/hotels/stars/3-stars.svg);
+}
+
+.stars-2 {
+  background-image: url(../images/hotels/stars/2-stars.svg);
+}
