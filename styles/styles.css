@@ -633,6 +633,22 @@ body {
 color: rgba(117, 97, 87, 0.3);
 }
 
+.htmlacademy-link {
+  color: #000000;
+}
+
+.htmlacademy-link:hover {
+  color: #756157;
+}
+
+.htmlacademy-link:focus {
+  color: #756157;
+}
+
+.htmlacademy-link:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 /* Далее идет страница с каталогом гостниц */
 
 /* Фильтр */
