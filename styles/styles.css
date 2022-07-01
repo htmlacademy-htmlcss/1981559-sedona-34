@@ -181,19 +181,31 @@ body {
 }
 
 /* Состояния голубых кнопок */
-.newsletter-button:hover, .submit-button:hover, .to-favorite:hover, .pagination-link:hover {
+.newsletter-button:hover,
+.submit-button:hover,
+.to-favorite:hover,
+.pagination-link:hover {
   background-color: #68A2CA;
 }
 
-.newsletter-button:focus, .submit-button:focus, .to-favorite:focus, .pagination-link:focus  {
+.newsletter-button:focus,
+.submit-button:focus,
+.to-favorite:focus,
+.pagination-link:focus {
   background-color: #68A2CA;
 }
 
-.newsletter-button:active, .submit-button:active, .to-favorite:active, .pagination-link:active  {
+.newsletter-button:active,
+.submit-button:active,
+.to-favorite:active,
+.pagination-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.newsletter-button:disabled, .submit-button:disabled, .to-favorite:disabled, .pagination-link:disabled  {
+.newsletter-button:disabled,
+.submit-button:disabled,
+.to-favorite:disabled,
+.pagination-link:disabled {
   background-color: #E5E5E5;
 }
 
@@ -218,6 +230,7 @@ body {
 .discard-button:hover {
   background-color: transparent;
 }
+
 .discard-button:focus {
   background-color: transparent;
 }
@@ -623,7 +636,11 @@ body {
 }
 
 /* Текущая страница */
-.pagination-current, .pagination-current:hover, .pagination-current:focus, .pagination-current:active, .pagination-current:disabled {
+.pagination-current,
+.pagination-current:hover,
+.pagination-current:focus,
+.pagination-current:active,
+.pagination-current:disabled {
   color: #000000;
   background-color: #F2F2F2;
 }
@@ -672,19 +689,27 @@ body {
   min-height: 14px;
 }
 
-.footer-social-vk, .footer-social-tg, .footer-social-youtube {
+.footer-social-vk,
+.footer-social-tg,
+.footer-social-youtube {
   color: #83B3D3;
 }
 
-.footer-social-vk:hover, .footer-social-tg:hover, .footer-social-youtube:hover {
+.footer-social-vk:hover,
+.footer-social-tg:hover,
+.footer-social-youtube:hover {
   color: #68A2CA;
 }
 
-.footer-social-vk:focus, .footer-social-tg:focus, .footer-social-youtube:focus {
+.footer-social-vk:focus,
+.footer-social-tg:focus,
+.footer-social-youtube:focus {
   color: #68A2CA;
 }
 
-.footer-social-vk:active, .footer-social-tg:active, .footer-social-youtube:active {
+.footer-social-vk:active,
+.footer-social-tg:active,
+.footer-social-youtube:active {
   color: rgba(104, 162, 202, 0.3);
 }
 
@@ -708,8 +733,9 @@ body {
 .footer-number-link:focus {
   color: #756157;
 }
+
 .footer-number-link:active {
-color: rgba(117, 97, 87, 0.3);
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .htmlacademy-link {
