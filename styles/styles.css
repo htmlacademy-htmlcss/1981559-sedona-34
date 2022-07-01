@@ -591,8 +591,22 @@ body {
 .footer-social-item {
   min-width: 18px;
   min-height: 14px;
-  /* временный бэкграунд до момента вставки SVG */
-  background-color: #82B3D3;
+}
+
+.footer-social-vk, .footer-social-tg, .footer-social-youtube {
+  color: #83B3D3;
+}
+
+.footer-social-vk:hover, .footer-social-tg:hover, .footer-social-youtube:hover {
+  color: #68A2CA;
+}
+
+.footer-social-vk:focus, .footer-social-tg:focus, .footer-social-youtube:focus {
+  color: #68A2CA;
+}
+
+.footer-social-vk:active, .footer-social-tg:active, .footer-social-youtube:active {
+  color: rgba(104, 162, 202, 0.3);
 }
 
 .footer-social-item:not(:last-child) {
