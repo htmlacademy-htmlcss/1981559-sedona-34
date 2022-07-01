@@ -746,12 +746,6 @@ color: rgba(117, 97, 87, 0.3);
   margin-right: 25px;
 }
 
-/* Убрать после добавления SVG */
-.breadcrumbs-item:not(:last-child) {
-  min-width: 12px;
-  outline: #FFFFFF solid 1px;
-}
-
 .breadcrumbs-link {
   color: #FFFFFF;
   text-decoration: none;
