@@ -169,19 +169,19 @@ body {
 }
 
 /* Состояния голубых кнопок */
-.newsletter-button:hover, .submit-button:hover, .to-favorite:hover {
+.newsletter-button:hover, .submit-button:hover, .to-favorite:hover, .pagination-link:hover {
   background-color: #68A2CA;
 }
 
-.newsletter-button:focus, .submit-button:focus, .to-favorite:focus  {
+.newsletter-button:focus, .submit-button:focus, .to-favorite:focus, .pagination-link:focus  {
   background-color: #68A2CA;
 }
 
-.newsletter-button:active, .submit-button:active, .to-favorite:active  {
+.newsletter-button:active, .submit-button:active, .to-favorite:active, .pagination-link:active  {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.newsletter-button:disabled, .submit-button:disabled, .to-favorite:disabled  {
+.newsletter-button:disabled, .submit-button:disabled, .to-favorite:disabled, .pagination-link:disabled  {
   background-color: #E5E5E5;
 }
 
