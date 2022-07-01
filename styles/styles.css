@@ -753,6 +753,24 @@ color: rgba(117, 97, 87, 0.3);
   line-height: 21px;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
+.breadcrumbs-item::after {
+  background-image: url("../images/breadcrumbs/next-arrow-background.svg");
+  width: 6px;
+  height: 9px;
+  content: "";
+  position: absolute;
+  right: -16px;
+  top: 7px;
+}
+
+.breadcrumbs-item:last-child::after {
+  background-image: none;
+}
+
 .filter-title {
   font-weight: 700;
   font-size: 20px;
