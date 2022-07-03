@@ -83,17 +83,6 @@ body {
   margin-left: auto;
 }
 
-.navigation-link {
-  padding: 20px 17px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-  text-decoration: none;
-  display: block;
-  position: relative;
-}
-
 .current::before {
   position: absolute;
   right: 0;
@@ -130,7 +119,7 @@ body {
 
 .navigation-logo {
   z-index: 1;
-  margin-right: 47px;
+  margin-right: 27px;
 }
 
 .logo {
@@ -139,7 +128,7 @@ body {
 }
 
 /* Кнопки */
-.button {
+/* .button {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -151,16 +140,17 @@ body {
   text-decoration: none;
   padding: 14px 15px;
   border-radius: 4px;
-}
+} */
 
-.button.navigation-link {
-  width: 160px;
-  margin-top: 14px;
-  margin-left: 20px;
-  margin-bottom: 14px;
-  padding: 9px 15px;
-  background-color: #756157;
-  text-align: center;
+.navigation-link-button {
+  padding: 20px 17px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  position: relative;
 }
 
 /* Состояния коричневых кнопок */
