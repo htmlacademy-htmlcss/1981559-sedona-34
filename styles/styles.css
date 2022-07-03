@@ -551,14 +551,11 @@ body {
 
 .button-hotel {
   margin: 56px auto 0;
-  padding: 12px;
+  padding: 12px 15px;
   display: block;
   width: 574px;
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  background-color: #756157;
-  text-decoration: none;
 }
 
 /* Поле подписки */
