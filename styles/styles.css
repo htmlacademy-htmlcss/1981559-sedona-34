@@ -165,8 +165,19 @@ body {
   background-color: #E5E5E5;
 }
 
-/* Синие кнопки */
+/* Кнопка в шапке "Хочу сюда!" */
+.navigation-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
+.navigation-item .brown-button {
+  margin-left: 27px;
+  width: 160px;
+}
+
+/* Синие кнопки */
 .blue-button {
   background-color: #82B3D3;
   border-radius: 4px;
@@ -180,55 +191,26 @@ body {
   line-height: 20px;
 }
 
-.newsletter-button {
+.blue-button:hover, .blue-button:focus {
+  background-color: #68A2CA;
+}
+
+.blue-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.blue-button:disabled {
+  background-color: #E5E5E5;
+}
+
+/* .newsletter-button {
   padding: 12px 15px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
   width: 200px;
   border-radius: 0 10px 10px 0;
-}
-
-/* Кнопка в шапке "Хочу сюда!" */
-.navigation-item {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.navigation-item .brown-button {
-  margin-left: 27px;
-  width: 160px;
-}
-
-/* Состояния голубых кнопок */
-.newsletter-button:hover,
-.submit-button:hover,
-.to-favorite:hover,
-.pagination-link:hover {
-  background-color: #68A2CA;
-}
-
-.newsletter-button:focus,
-.submit-button:focus,
-.to-favorite:focus,
-.pagination-link:focus {
-  background-color: #68A2CA;
-}
-
-.newsletter-button:active,
-.submit-button:active,
-.to-favorite:active,
-.pagination-link:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.newsletter-button:disabled,
-.submit-button:disabled,
-.to-favorite:disabled,
-.pagination-link:disabled {
-  background-color: #E5E5E5;
-}
+} */
 
 /* Состояния зеленых кнопок */
 .selected-favorite-button:hover {
