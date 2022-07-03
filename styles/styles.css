@@ -83,10 +83,10 @@ body {
   margin-left: auto;
 }
 
+/* Нижнее подчеркивание выбранной страницы */
 .current::before {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  bottom: 2px;
   left: 17px;
   right: 17px;
   height: 2px;
@@ -154,20 +154,44 @@ body {
 }
 
 /* Состояния коричневых кнопок */
-.button:hover {
+.brown-button {
+  padding: 9px 15px 8px;
+  background-color: #756157;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.brown-button:hover {
   background-color: #615048;
 }
 
-.button:focus {
+.brown-button:focus {
   background-color: #615048;
 }
 
-.button:active {
+.brown-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.button:disabled {
+.brown-button:disabled {
   background-color: #E5E5E5;
+}
+
+/* Кнопка в шапке "Хочу сюда!" */
+.navigation-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.navigation-item .brown-button {
+  margin-left: 27px;
+  width: 160px;
 }
 
 /* Состояния голубых кнопок */
