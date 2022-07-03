@@ -561,7 +561,6 @@ body {
 /* Поле подписки */
 .newsletter {
   margin-top: 93px;
-  background-color: #82B3D3;
   color: #FFFFFF;
   background-image: url("../images/subscribe-backgrund.jpg");
   background-size: 100% auto;
