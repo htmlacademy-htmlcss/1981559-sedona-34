@@ -170,6 +170,14 @@ body {
 .blue-button {
   background-color: #82B3D3;
   border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: none;
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .newsletter-button {
