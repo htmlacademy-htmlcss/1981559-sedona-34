@@ -213,19 +213,30 @@ body {
 }
 
 /* Состояния зеленых кнопок */
-.selected-favorite-button:hover {
+.green-button {
+  background-color: #7DB54F;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: none;
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.green-button:hover, .green-button:focus {
   background-color: #6C9E42;
 }
 
-.selected-favorite-button:focus {
-  background-color: #6C9E42;
-}
-
-.selected-favorite-button:active {
+.green-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.selected-favorite-button:disabled {
+.green-button:disabled {
   background-color: #E5E5E5;
 }
 
