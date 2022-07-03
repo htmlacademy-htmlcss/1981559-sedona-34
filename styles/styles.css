@@ -128,19 +128,6 @@ body {
 }
 
 /* Кнопки */
-/* .button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #82B3D3;
-  border: none;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 14px 15px;
-  border-radius: 4px;
-} */
 
 .navigation-link-button {
   padding: 20px 17px;
@@ -166,11 +153,7 @@ body {
   text-transform: uppercase;
 }
 
-.brown-button:hover {
-  background-color: #615048;
-}
-
-.brown-button:focus {
+.brown-button:hover, .brown-button:focus {
   background-color: #615048;
 }
 
@@ -181,6 +164,17 @@ body {
 .brown-button:disabled {
   background-color: #E5E5E5;
 }
+
+.newsletter-button {
+  padding: 12px 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width: 200px;
+  border-radius: 0 10px 10px 0;
+}
+
+
 
 /* Кнопка в шапке "Хочу сюда!" */
 .navigation-item {
@@ -595,15 +589,6 @@ body {
   border: none;
   background-color: #F2F2F2;
   border-radius: 10px 0 0 10px;
-}
-
-.newsletter-button {
-  padding: 12px 15px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  width: 200px;
-  border-radius: 0 10px 10px 0;
 }
 
 .newsletter-without-backgorund {
