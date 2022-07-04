@@ -644,11 +644,7 @@ body {
 }
 
 /* Текущая страница */
-.pagination-current,
-.pagination-current:hover,
-.pagination-current:focus,
-.pagination-current:active,
-.pagination-current:disabled {
+.pagination-current {
   color: #000000;
   background-color: #F2F2F2;
 }
