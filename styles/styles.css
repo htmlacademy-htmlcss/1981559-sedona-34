@@ -241,20 +241,26 @@ body {
 }
 
 /* Кнопки без фона */
-.discard-button:hover {
+/* Кнопка сброса без padding, защита от случайного нажатия */
+.transparent-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
   background-color: transparent;
+  padding: 0;
+  margin-top: 20px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
-.discard-button:focus {
-  background-color: transparent;
+.transparent-button:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.discard-button:active {
+.transparent-button:active {
   color: rgba(255, 255, 255, 0.3);
-}
-
-.discard-button:disabled {
-  background-color: transparent;
 }
 
 /* Основное содержание страницы */
@@ -353,8 +359,9 @@ body {
   justify-content: flex-end;
 }
 
-.submit-discard-buttons .button {
+.submit-discard-buttons .blue-button {
   width: 160px;
+  padding: 14px 15px;
 }
 
 .welcome-part {
@@ -820,18 +827,6 @@ body {
 .control {
   font-size: 18px;
   line-height: 21px;
-}
-
-/* Конопка сброса настроек фильтра */
-/* Кнопка сброса без padding, защита от случайного нажатия */
-.discard-button {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: none;
-  background-color: transparent;
-  padding: 0;
-  margin-top: 20px;
 }
 
 /* Сортировка гостиниц */
