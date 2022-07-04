@@ -271,10 +271,18 @@ body {
   border: none;
   color: #FFFFFF;
   cursor: pointer;
+  width: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .transparent-button:hover {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.transparent-button:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
 }
 
 .transparent-button:active {
@@ -369,10 +377,55 @@ body {
   border: none;
 }
 
+/* Range */
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-bottom: 16px;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 2px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  opacity: 1;
+  background-color: #FFFFFF;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:focus {
+  border: 3px solid #83B3D3;
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
 .submit-discard-buttons {
   padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   border: none;
   justify-content: flex-end;
 }
