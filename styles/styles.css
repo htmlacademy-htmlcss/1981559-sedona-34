@@ -876,6 +876,7 @@ body {
 /* Селектор для сортировки по ценнику */
 .select-control {
   font-family: inherit;
+  font-size: 18px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   width: 280px;
