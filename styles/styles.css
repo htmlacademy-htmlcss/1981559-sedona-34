@@ -764,27 +764,15 @@ body {
   min-height: 14px;
 }
 
-.footer-social-vk,
-.footer-social-tg,
-.footer-social-youtube {
+.footer-social-link {
   color: #83B3D3;
 }
 
-.footer-social-vk:hover,
-.footer-social-tg:hover,
-.footer-social-youtube:hover {
+footer-social-link:hover, footer-social-link:focus {
   color: #68A2CA;
 }
 
-.footer-social-vk:focus,
-.footer-social-tg:focus,
-.footer-social-youtube:focus {
-  color: #68A2CA;
-}
-
-.footer-social-vk:active,
-.footer-social-tg:active,
-.footer-social-youtube:active {
+.footer-social-link:active {
   color: rgba(104, 162, 202, 0.3);
 }
 
