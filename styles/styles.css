@@ -649,25 +649,6 @@ body {
   background-color: #F2F2F2;
 }
 
-/* Гостиниц на странице */
-.number-of-hottels {
-  color: #333333;
-}
-
-.select-number-of-hotels {
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 21px;
-  color: #333333;
-  width: 160px;
-  padding: 14px 20px;
-  border: 2px solid #E5E5E5;
-  border-radius: 4px;
-}
-
-.number-of-hottels {
-  margin-right: 51px;
-}
 
 /* Футер */
 .main-footer {
@@ -956,4 +937,23 @@ body {
 
 .stars-2 {
   background-image: url(../images/hotels/stars/2-stars.svg);
+}
+
+/* Гостиниц на странице */
+.number-of-hottels {
+  color: #333333;
+}
+
+.select-number-of-hotels {
+  font-family: inherit;
+  font-size: 18px;
+  color: #333333;
+  width: 160px;
+  padding: 14px 20px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.number-of-hottels {
+  margin-right: 51px;
 }
