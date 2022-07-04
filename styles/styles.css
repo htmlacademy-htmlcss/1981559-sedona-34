@@ -379,9 +379,9 @@ body {
 
 /* Range */
 .range-scale {
+  margin-top: 32px;
   position: relative;
   height: 4px;
-  margin-bottom: 16px;
   background-color: rgba(255,255,255,0.3);
   border-radius: 2px;
 }
@@ -433,6 +433,37 @@ body {
 .submit-discard-buttons .blue-button {
   width: 160px;
   padding: 14px 15px;
+}
+
+.range-wrapper-inputs {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #FFFFFF;
+  padding: 14px 18px;
+  border-radius: 4px;
+}
+
+.catalog-filter-label {
+  display: flex;
+  margin-right: 5px;
+}
+
+.range-input {
+  color: #FFFFFF;
+  width: 30px;
+  padding: 0 2px;
+  font: inherit;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  appearance: textfield;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .welcome-part {
