@@ -100,13 +100,17 @@ body {
   display: block;
   padding: 24px 12px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 10px;
   line-height: 13px;
 }
 
 .navigation-icon:hover, .navigation-icon:focus {
   color: #756157;
+}
+
+.navigation-icon:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .favorite-icon-value {
@@ -117,6 +121,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #7DB54F;
+  color: #FFFFFF;
   width: 20px;
   height: 20px;
   border-radius: 50%;
