@@ -615,12 +615,31 @@ body {
   justify-content: center;
 }
 
+/* Field */
 .field {
   padding: 20px 491px 19px 22px;
   border: none;
   background-color: #F2F2F2;
   border-radius: 10px 0 0 10px;
+  outline-offset: -2px;
 }
+
+.field:hover {
+  outline: 2px solid #68A2CA;
+}
+
+.field:active, field:focus {
+  outline: 2px solid #3F5E72;
+}
+
+.field:disabled {
+  outline: 2px solid rgba(0, 0, 0, 0.3);;
+}
+
+.field:focus-visible {
+  outline: 2px solid #3F5E72;
+}
+
 
 .newsletter-without-backgorund {
   background-color: #FFFFFF;
