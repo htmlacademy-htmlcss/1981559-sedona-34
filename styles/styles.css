@@ -105,6 +105,12 @@ body {
   line-height: 13px;
 }
 
+.navigation-icon:hover, .navigation-icon:focus {
+  color: #756157;
+}
+
+.navigation-icon
+
 .favorite-icon-value {
   position: absolute;
   left: 24px;
@@ -139,6 +145,14 @@ body {
   color: #000000;
   display: block;
   position: relative;
+}
+
+.navigation-link-button:hover, .navigation-link-button:focus {
+  color: #756157;;
+}
+
+.navigation-link-button:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 /* Состояния коричневых кнопок */
