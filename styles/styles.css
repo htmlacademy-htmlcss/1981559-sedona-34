@@ -951,7 +951,7 @@ footer-social-link:hover, footer-social-link:focus {
   border: 2px solid #000000;
 }
 
-.sorting-button:not(:last-child) {
+.sorting-container a:not(:last-child) {
   margin-right: 8px;
 }
 
