@@ -935,6 +935,8 @@ footer-social-link:hover, footer-social-link:focus {
   border-radius: 4px;
   width: 48px;
   height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sorting-button:hover {
@@ -953,8 +955,28 @@ footer-social-link:hover, footer-social-link:focus {
   margin-right: 8px;
 }
 
-.selected-button {
-  border: 2px solid #000000
+.selected-sorting-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.show-cards {
+  background-image: url(../images/sorting/show-cards.svg);
+}
+
+.show-slides {
+  background-image: url(../images/sorting/show-slides.svg);
+}
+
+.show-icons {
+  background-image: url(../images/sorting/show-icons.svg);
 }
 
 /* Селектор для сортировки по ценнику */
