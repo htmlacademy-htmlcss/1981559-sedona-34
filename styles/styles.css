@@ -1114,6 +1114,10 @@ footer-social-link:hover, footer-social-link:focus {
   padding: 14px 20px;
   margin-right: 78px;
   cursor: pointer;
+  appearance: none;
+  background-image: url("../images/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
 }
 
 .select-control:hover, .select-control:focus {
