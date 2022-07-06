@@ -375,6 +375,8 @@ body {
   margin-right: 70px;
   padding: 0;
   border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* Range */
@@ -384,12 +386,12 @@ body {
   height: 4px;
   background-color: rgba(255,255,255,0.3);
   border-radius: 2px;
+  grid-column: span 2;
 }
 
 .range-bar {
   position: absolute;
   height: 4px;
-  opacity: 1;
   background-color: #FFFFFF;
 }
 
@@ -421,6 +423,7 @@ body {
   right: -10px;
 }
 
+
 .submit-discard-buttons {
   padding: 0;
   display: flex;
@@ -435,30 +438,74 @@ body {
   padding: 14px 15px;
 }
 
-.range-wrapper-inputs {
-  margin-top: 34px;
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid #FFFFFF;
-  padding: 14px 18px;
-  border-radius: 4px;
-}
-
-.catalog-filter-label {
-  display: flex;
-  margin-right: 5px;
-}
-
 .range-input {
+  margin-top: 34px;
   color: #FFFFFF;
-  width: 30px;
-  padding: 0 2px;
+  width: 144px;
   font: inherit;
-  text-align: center;
   background-color: transparent;
-  border: none;
   appearance: textfield;
+  padding: 14px;
+  outline: none;
 }
+
+.left-input {
+  border: 2px solid #FFFFFF;
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.right-input {
+  border: 2px solid #FFFFFF;
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #FFFFFF;
+}
+
+.left-input:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.right-input:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.left-input:focus {
+  box-shadow:
+  0 0 0 3px #81B3D2,
+  inset 0 0 0 3px #81B3D2;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px 0 0 4px;
+  border-right: 1px solid #FFFFFF;
+}
+
+.right-input:focus {
+  box-shadow:
+  0 0 0 3px #81B3D2,
+  inset 0 0 0 3px #81B3D2;
+  border: 2px solid #FFFFFF;
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid #FFFFFF;
+}
+
+.left-input:active, .right-input:active {
+  background-color: #756257;;
+}
+
+/*
+.catalog-filter-label:focus {
+box-shadow: 0px 0px 0px 3px #81B3D2;
+}
+
+.catalog-filter-label + .catalog-filter-label:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.range-input:focus-visible {
+  outline: 5px solid red;
+} */
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
