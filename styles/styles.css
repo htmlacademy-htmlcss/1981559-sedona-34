@@ -362,20 +362,17 @@ body {
   border-radius: 4px;
 }
 
-.control-mark:hover {
+.control-mark:hover, .control-mark-radio:hover {
   background: rgba(255, 255, 255, 0.6);
-  border-radius: 4px;
 }
 
-.control-mark:focus {
+.control-mark:focus, .control-mark-radio:focus {
   background: rgba(255, 255, 255, 0.6);
-  border-radius: 4px;
   outline: 3px solid #83B3D3;
 }
 
-.control-mark:active {
+.control-mark:active, .control-mark-radio:active {
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
@@ -387,6 +384,32 @@ body {
   background-image: url(../images/chekbox-mark.svg);
   content: "";
 }
+
+.control-radio {
+  padding-left: 39px;
+  position: relative;
+}
+
+.control-mark-radio {
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+}
+
+
+/* .control-input[type="radio"]:checked + .control-radio::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-color: #3F5E72;
+} */
 
 /* Тип Жилья */
 .hotel-type-filter-group {
