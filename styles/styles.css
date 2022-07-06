@@ -289,23 +289,19 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-/* Основное содержание страницы */
-.main-index {
-  text-align: center;
-  color: #000000;
-  background-color: #FFFFFF;
+/* Свойства кнопок в фильтре */
+.submit-discard-buttons {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  justify-content: flex-end;
 }
 
-.main-container {
-  flex-grow: 1;
-}
-
-.main-inner-container {
-  padding: 35px 70px 70px;
-}
-
-.inner-header-title {
-  margin: 0;
+.submit-discard-buttons .blue-button {
+  width: 160px;
+  padding: 14px 15px;
 }
 
 /* Настройка фильтра */
@@ -423,21 +419,6 @@ body {
   right: -10px;
 }
 
-
-.submit-discard-buttons {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: none;
-  justify-content: flex-end;
-}
-
-.submit-discard-buttons .blue-button {
-  width: 160px;
-  padding: 14px 15px;
-}
-
 .range-input {
   margin-top: 34px;
   color: #FFFFFF;
@@ -446,6 +427,7 @@ body {
   background-color: transparent;
   appearance: textfield;
   padding: 14px;
+  padding-right: 33px;
   outline: none;
 }
 
@@ -493,23 +475,53 @@ body {
   background-color: #756257;;
 }
 
-/*
-.catalog-filter-label:focus {
-box-shadow: 0px 0px 0px 3px #81B3D2;
-}
-
-.catalog-filter-label + .catalog-filter-label:hover {
-  border: 2px solid rgba(255, 255, 255, 0.6);
-  border-left: 1px solid rgba(255, 255, 255, 0.6);
-}
-
-.range-input:focus-visible {
-  outline: 5px solid red;
-} */
-
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
   appearance: none;
+  margin: 0;
+}
+
+/* Позиционирование диапазонов стоимости "от" и "до" */
+.catalog-filter-label-left {
+  position: relative;
+}
+
+.catalog-filter-label-left::after {
+  content: "от";
+  position: absolute;
+  bottom: 16px;
+  right: 14px;
+  opacity: 0.3;
+}
+
+.catalog-filter-label-right {
+  position: relative;
+}
+
+.catalog-filter-label-right::after {
+  content: "до";
+  position: absolute;
+  bottom: 16px;
+  right: 14px;
+  opacity: 0.3;
+}
+
+/* Основное содержание страницы */
+.main-index {
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.main-inner-container {
+  padding: 35px 70px 70px;
+}
+
+.inner-header-title {
   margin: 0;
 }
 
