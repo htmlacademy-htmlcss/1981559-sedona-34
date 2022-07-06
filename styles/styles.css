@@ -400,16 +400,16 @@ body {
   border-radius: 50%;
 }
 
-
-/* .control-input[type="radio"]:checked + .control-radio::before {
+.control-input[type="radio"]:checked + .control-mark-radio::before {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  content: "";
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
   background-color: #3F5E72;
-} */
+  border-radius: 50%;
+  content: "";
+}
 
 /* Тип Жилья */
 .hotel-type-filter-group {
