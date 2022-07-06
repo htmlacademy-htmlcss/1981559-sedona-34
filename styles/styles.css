@@ -346,6 +346,38 @@ body {
   margin-right: 19px;
 }
 
+.control-checkbox {
+  padding-left: 39px;
+  position: relative;
+  display: block;
+}
+
+.control-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.control-mark:hover {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+
+.control-mark:focus {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  outline: 3px solid #83B3D3;
+}
+
+.control-mark:active {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
 /* Тип Жилья */
 .hotel-type-filter-group {
   margin: 0;
