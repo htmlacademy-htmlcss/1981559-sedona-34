@@ -378,6 +378,16 @@ body {
   border-radius: 4px;
 }
 
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 13px;
+  height: 10px;
+  background-image: url(../images/chekbox-mark.svg);
+  content: "";
+}
+
 /* Тип Жилья */
 .hotel-type-filter-group {
   margin: 0;
