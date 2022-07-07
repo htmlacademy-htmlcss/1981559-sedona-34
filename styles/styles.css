@@ -363,16 +363,16 @@ body {
 }
 
 .control-mark:hover, .control-mark-radio:hover {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-mark:focus, .control-mark-radio:focus {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   outline: 3px solid #83B3D3;
 }
 
 .control-mark:active, .control-mark-radio:active {
-  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
@@ -460,7 +460,7 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: #ffffff;
+  background-color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -1340,4 +1340,26 @@ footer-social-link:hover, footer-social-link:focus {
 
 .button-find {
   grid-column: 1/-1;
+}
+
+.auth-form label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.auth-form input {
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 19px;
+}
+
+.auth-form input::placeholder {
+  color: #000000;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
