@@ -1285,7 +1285,21 @@ footer-social-link:hover, footer-social-link:focus {
 .auth-form {
   outline: 3px solid salmon;
   display: grid;
-  grid-template-columns: repeat(4, 1fr)
+  align-items: center;
+  grid-template-columns: 155px repeat(3, 1fr);
+  position: relative;
+}
+
+.auth-form::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/calendar-icom.svg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  top: 18px;
+  right: 19px;
 }
 
 .label-enter-date {
@@ -1301,6 +1315,10 @@ footer-social-link:hover, footer-social-link:focus {
 .error-date {
   grid-column: 2/-1;
   grid-row: 2/3;
+  margin: 0;
+  margin-bottom: 11px;
+  font-size: 16px;
+  color: #FF5757;
 }
 
 .label-exit-date {
@@ -1316,6 +1334,9 @@ footer-social-link:hover, footer-social-link:focus {
 .free-dates {
   grid-column: 2/-1;
   grid-row: 4/5;
+  margin: 0;
+  margin-bottom: 11px;
+  font-size: 16px;
 }
 
 .label-adults {
@@ -1338,8 +1359,12 @@ footer-social-link:hover, footer-social-link:focus {
   grid-row: 5/6;
 }
 
-.button-find {
+.auth-form .blue-button {
   grid-column: 1/-1;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 12px 26px;
+  margin-top: 40px;
 }
 
 .auth-form label {
@@ -1353,13 +1378,31 @@ footer-social-link:hover, footer-social-link:focus {
   border-radius: 4px;
   border: none;
   padding: 15px 19px;
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.auth-form input:hover {
+  background: #E6E6E6;
+}
+
+.auth-form input:focus {
+  background: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.auth-form input:active {
+  background: #FFFFFF;
+  outline: 2px solid #000000;
 }
 
 .auth-form input::placeholder {
   color: #000000;
   font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 40px;
+  opacity: 0.5;
 }
