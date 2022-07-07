@@ -1302,6 +1302,18 @@ footer-social-link:hover, footer-social-link:focus {
   right: 19px;
 }
 
+.auth-form::after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/calendar-icom.svg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  top: 100px;
+  right: 19px;
+}
+
 .label-enter-date {
   grid-column: 1/2;
   grid-row: 1/2;
