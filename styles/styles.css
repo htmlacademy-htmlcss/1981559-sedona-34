@@ -1281,3 +1281,64 @@ footer-social-link:hover, footer-social-link:focus {
   color: #000000;
   text-transform: uppercase;
 }
+
+.auth-form {
+  outline: 3px solid salmon;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+.label-enter-date {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.auth-enter-field {
+  grid-column: 2/-1;
+  grid-row: 1/2;
+}
+
+.error-date {
+  grid-column: 2/-1;
+  grid-row: 2/3;
+}
+
+.label-exit-date {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.auth-exit-field {
+  grid-column: 2/-1;
+  grid-row: 3/4;
+}
+
+.free-dates {
+  grid-column: 2/-1;
+  grid-row: 4/5;
+}
+
+.label-adults {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.auth-adults-field {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.label-children {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.auth-children-field {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+.button-find {
+  grid-column: 1/-1;
+  grid-row: -2/-1;
+}
