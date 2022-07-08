@@ -1463,7 +1463,7 @@ footer-social-link:hover, footer-social-link:focus {
   margin-right: 10px;
 }
 
-.children-information {
+.tooltip-toggle {
   width: 25px;
   height: 25px;
   background-color: #83B3D3;
@@ -1471,11 +1471,20 @@ footer-social-link:hover, footer-social-link:focus {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
+  border: none;
 }
 
-.children-information:hover {
+.tooltip-toggle:hover {
   background-color: #68A2CA;
 }
+
+/* .tooltip-toggle:focus {
+  background-color: none;
+}
+
+.tooltip-toggle:active{
+
+} */
 
 .auth-children-field {
   grid-column: 4/5;
