@@ -245,14 +245,18 @@
             <p class="free-dates">На эти даты есть свободные номера. Пока есть.</p>
 
               <label class="label-adults" for="auth-adults">Взрослые:</label>
-              <input class="auth-adults-field" type="number" id="auth-adults" name="auth-adults" value="2" placeholder="Укажите число">
 
+              <button class="decrease-button adults-button" type="button"></button>
+              <input class="auth-adults-field" type="number" id="auth-adults" name="auth-adults" value="2" min="1">
+              <button class="increase-button adults-button" type="button"></button>
               <div class="children-container">
                 <label class="label-children" for="auth-children">Дети:</label>
                 <span class="children-information"></span>
               </div>
-              <input class="auth-children-field" type="number" id="auth-children" name="auth-children" value="1" placeholder="Укажите число">
 
+              <button class="decrease-button children-button" type="button"></button>
+              <input class="auth-children-field" type="number" id="auth-children" name="auth-children" value="1" min="0">
+              <button class="increase-button children-button" type="button"></button>
             <button class="blue-button" type="submit">Найти</button>
           </form>
         </div>

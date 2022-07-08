@@ -1283,7 +1283,7 @@ footer-social-link:hover, footer-social-link:focus {
 .auth-form {
   display: grid;
   align-items: center;
-  grid-template-columns: 155px repeat(2, 1fr) 133px;
+  grid-template-columns: 155px 133px 1fr 133px;
   position: relative;
 }
 
@@ -1319,6 +1319,7 @@ footer-social-link:hover, footer-social-link:focus {
 .auth-enter-field {
   grid-column: 2/-1;
   grid-row: 1/2;
+  padding: 15px 19px;
 }
 
 .error-date {
@@ -1338,6 +1339,7 @@ footer-social-link:hover, footer-social-link:focus {
 .auth-exit-field {
   grid-column: 2/-1;
   grid-row: 3/4;
+  padding: 15px 19px;
 }
 
 .free-dates {
@@ -1353,11 +1355,100 @@ footer-social-link:hover, footer-social-link:focus {
   grid-row: 5/6;
 }
 
+.adults-button {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.auth-form button:not(:last-of-type) {
+  background-color: transparent;
+}
+
+.auth-form button:hover {
+  opacity: 1;
+}
+
+.auth-form button:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.auth-form button:active {
+  opacity: 0.3;
+  outline: none;
+}
+
+.decrease-button {
+  opacity: 0.3;
+  width: 19px;
+  height: 19px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  margin-left: 19px;
+  position: relative;
+}
+
+.decrease-button::before {
+  content: "";
+  width: 13px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: 3px;
+}
+
+.increase-button {
+  opacity: 0.3;
+  width: 19px;
+  height: 19px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  margin-right: 19px;
+  justify-self: end;
+  position: relative;
+}
+
+.increase-button::before {
+  content: "";
+  width: 13px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: 3px;
+}
+
+.increase-button::after {
+  content: "";
+  width: 13px;
+  height: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: 3px;
+  transform: rotate(90deg);
+}
+
 .auth-adults-field {
   grid-column: 2/3;
   grid-row: 5/6;
-  width: 133px;
   box-sizing: border-box;
+  text-align: center;
+  padding: 15px 46px;
+}
+
+
+/* Убираю стрелки инпута взрослых */
+.auth-adults-field[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+
+.auth-adults-field[type="number"]::-webkit-outer-spin-button,
+.auth-adults-field[type="number"]::-webkit-inner-spin-button {
+	display: none;
 }
 
 .children-container {
@@ -1389,6 +1480,25 @@ footer-social-link:hover, footer-social-link:focus {
 .auth-children-field {
   grid-column: 4/5;
   grid-row: 5/6;
+  text-align: center;
+  padding: 15px 46px;
+}
+
+.children-button {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+/* Убираю стрелки инпута детей */
+.auth-children-field[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+
+.auth-children-field[type="number"]::-webkit-outer-spin-button,
+.auth-children-field[type="number"]::-webkit-inner-spin-button {
+	display: none;
 }
 
 .auth-form .blue-button {
@@ -1409,7 +1519,6 @@ footer-social-link:hover, footer-social-link:focus {
   background-color: #F2F2F2;
   border-radius: 4px;
   border: none;
-  padding: 15px 19px;
   font-family: 'PT Sans';
   font-weight: 700;
   font-size: 18px;
