@@ -633,7 +633,6 @@ body {
   display: flex;
 }
 
-/* Оставить для редактирования в GRID */
 .list-of-hotels {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1232,11 +1231,10 @@ footer-social-link:hover, footer-social-link:focus {
   margin: auto;
   padding: 70px;
   background-color: #ffffff;
-
-}
-
-.modal-auth {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
   width: 715px;
+  box-sizing: border-box;
 }
 
 .modal-close-button {
@@ -1283,10 +1281,9 @@ footer-social-link:hover, footer-social-link:focus {
 }
 
 .auth-form {
-  outline: 3px solid salmon;
   display: grid;
   align-items: center;
-  grid-template-columns: 155px repeat(3, 1fr);
+  grid-template-columns: 155px repeat(2, 1fr) 133px;
   position: relative;
 }
 
@@ -1359,11 +1356,19 @@ footer-social-link:hover, footer-social-link:focus {
 .auth-adults-field {
   grid-column: 2/3;
   grid-row: 5/6;
+  width: 133px;
+  box-sizing: border-box;
 }
 
 .label-children {
   grid-column: 3/4;
   grid-row: 5/6;
+  justify-self: end;
+  margin-right: 43px;
+}
+
+.label-children {
+  
 }
 
 .auth-children-field {
