@@ -1360,15 +1360,30 @@ footer-social-link:hover, footer-social-link:focus {
   box-sizing: border-box;
 }
 
-.label-children {
+.children-container {
   grid-column: 3/4;
   grid-row: 5/6;
   justify-self: end;
-  margin-right: 43px;
+  margin-right: 18px;
+  display: flex;
 }
 
 .label-children {
-  
+  margin-right: 10px;
+}
+
+.children-information {
+  width: 25px;
+  height: 25px;
+  background-color: #83B3D3;
+  background-image: url(../images/information-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.children-information:hover {
+  background-color: #68A2CA;
 }
 
 .auth-children-field {
