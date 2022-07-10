@@ -1453,10 +1453,11 @@ footer-social-link:hover, footer-social-link:focus {
   justify-self: end;
   margin-right: 18px;
   display: flex;
+  position: relative;
 }
 
 .label-children {
-  margin-right: 10px;
+  margin-right: 35px;
 }
 
 .tooltip-toggle {
@@ -1473,6 +1474,47 @@ footer-social-link:hover, footer-social-link:focus {
 
 .tooltip-toggle:hover {
   background-color: #68A2CA;
+}
+
+.tooltip-text {
+  background-color: #333333;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 18px 18px 22px;
+  border-radius: 8px;
+  width: 256px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 100%;
+  right: 12px;
+  transform: translate(50%, 15px);
+  display: none;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 9px solid #333333;
+  transform: translate(-50%);
+}
+
+.tooltip {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 0;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
 }
 
 .auth-children-field {
