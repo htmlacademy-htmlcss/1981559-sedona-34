@@ -1468,18 +1468,11 @@ footer-social-link:hover, footer-social-link:focus {
   background-position: center;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .tooltip-toggle:hover {
   background-color: #68A2CA;
-}
-
-.tooltip-toggle:focus {
-  background-color: none;
-}
-
-.tooltip-toggle:active{
-
 }
 
 .auth-children-field {
