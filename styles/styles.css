@@ -1360,25 +1360,6 @@ footer-social-link:hover, footer-social-link:focus {
   grid-row: 5/6;
 }
 
-.auth-form button:not(:last-of-type) {
-  background-color: transparent;
-}
-
-.auth-form button:hover {
-  opacity: 1;
-}
-
-.auth-form button:focus {
-  outline: 3px solid #83B3D3;
-  border-radius: 4px;
-  opacity: 1;
-}
-
-.auth-form button:active {
-  opacity: 0.3;
-  outline: none;
-}
-
 .decrease-button {
   opacity: 0.3;
   width: 19px;
@@ -1409,6 +1390,21 @@ footer-social-link:hover, footer-social-link:focus {
   margin-right: 19px;
   justify-self: end;
   position: relative;
+}
+
+.increase-button:hover, .decrease-button:hover {
+  opacity: 1;
+}
+
+.increase-button:focus, .decrease-button:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.increase-button:active, .decrease-button:active {
+  opacity: 0.3;
+  outline: none;
 }
 
 .increase-button::before {
@@ -1478,13 +1474,13 @@ footer-social-link:hover, footer-social-link:focus {
   background-color: #68A2CA;
 }
 
-/* .tooltip-toggle:focus {
+.tooltip-toggle:focus {
   background-color: none;
 }
 
 .tooltip-toggle:active{
 
-} */
+}
 
 .auth-children-field {
   grid-column: 4/5;
