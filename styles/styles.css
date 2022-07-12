@@ -847,7 +847,7 @@ body {
 }
 
 .field:active,
-field:focus {
+.field:focus {
   outline: 2px solid #3F5E72;
 }
 
@@ -935,8 +935,8 @@ field:focus {
   color: #83B3D3;
 }
 
-footer-social-link:hover,
-footer-social-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   color: #68A2CA;
 }
 
