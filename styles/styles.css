@@ -108,6 +108,7 @@ body {
 .navigation-icon:hover,
 .navigation-icon:focus {
   color: #756157;
+  outline: none;
 }
 
 .navigation-icon:active {
@@ -129,8 +130,11 @@ body {
 }
 
 .navigation-logo {
-  z-index: 1;
   margin-right: 27px;
+}
+
+.navigation-logo:focus {
+  outline: none;
 }
 
 .logo {
@@ -154,6 +158,7 @@ body {
 .navigation-link-button:hover,
 .navigation-link-button:focus {
   color: #756157;
+  outline: none;
   ;
 }
 
@@ -177,6 +182,7 @@ body {
 .brown-button:hover,
 .brown-button:focus {
   background-color: #615048;
+  outline: none;
 }
 
 .brown-button:active {
@@ -217,6 +223,7 @@ body {
 .blue-button:hover,
 .blue-button:focus {
   background-color: #68A2CA;
+  outline: none;
 }
 
 .blue-button:active {
@@ -253,6 +260,7 @@ body {
 .green-button:hover,
 .green-button:focus {
   background-color: #6C9E42;
+  outline: none;
 }
 
 .green-button:active {
@@ -478,6 +486,7 @@ body {
 
 .range-toggle:focus {
   border: 3px solid #83B3D3;
+  outline: none;
 }
 
 .range-toggle:active {
@@ -530,6 +539,7 @@ body {
 }
 
 .left-input:focus {
+  outline: none;
   box-shadow:
     0 0 0 3px #81B3D2,
     inset 0 0 0 3px #81B3D2;
@@ -539,6 +549,7 @@ body {
 }
 
 .right-input:focus {
+  outline: none;
   box-shadow:
     0 0 0 3px #81B3D2,
     inset 0 0 0 3px #81B3D2;
@@ -846,9 +857,8 @@ body {
   outline: 2px solid #68A2CA;
 }
 
-.field:active,
 .field:focus {
-  outline: 2px solid #3F5E72;
+  outline: 3px solid #83B3D3;
 }
 
 .field:disabled {
@@ -856,10 +866,9 @@ body {
   ;
 }
 
-.field:focus-visible {
-  outline: 2px solid #3F5E72;
+.field:active {
+  outline: 2px solid #000000;
 }
-
 
 .newsletter-without-backgorund {
   background-color: #FFFFFF;
@@ -938,6 +947,7 @@ body {
 .footer-social-link:hover,
 .footer-social-link:focus {
   color: #68A2CA;
+  outline: none;
 }
 
 .footer-social-link:active {
@@ -963,6 +973,7 @@ body {
 
 .footer-number-link:focus {
   color: #756157;
+  outline: none;
 }
 
 .footer-number-link:active {
@@ -979,6 +990,7 @@ body {
 
 .htmlacademy-link:focus {
   color: #756157;
+  outline: none;
 }
 
 .htmlacademy-link:active {
@@ -1084,6 +1096,7 @@ body {
 
 .sorting-button:focus {
   border: 2px solid #68A2CA;
+  outline: none;
 }
 
 .sorting-button:active {
@@ -1104,6 +1117,11 @@ body {
   border: 2px solid #000000;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.selected-sorting-button:focus {
+  outline: none;
+  border: 2px solid #68A2CA;
 }
 
 .show-cards {
@@ -1137,6 +1155,7 @@ body {
 .select-control:hover,
 .select-control:focus {
   border: 2px solid #68A2CA;
+  outline: none;
 }
 
 .select-control:active {
