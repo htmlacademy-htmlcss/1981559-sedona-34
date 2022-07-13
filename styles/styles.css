@@ -929,8 +929,8 @@ body {
 }
 
 .page-footer-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 386px 450px 1fr;
   align-items: center;
 }
 
@@ -997,6 +997,7 @@ body {
 }
 
 .htmlacademy-link {
+  justify-self: end;
   color: #000000;
 }
 
