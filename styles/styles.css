@@ -306,6 +306,7 @@ body {
 
 /* Свойства кнопок в фильтре */
 .submit-discard-buttons {
+  margin-top: 60px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -326,6 +327,7 @@ body {
 /* Настройка фильтра */
 .filter-container {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -585,7 +587,7 @@ body {
 .catalog-filter-label-left::after {
   content: "от";
   position: absolute;
-  bottom: 16px;
+  top: 50px;
   right: 14px;
   opacity: 0.3;
 }
@@ -597,7 +599,7 @@ body {
 .catalog-filter-label-right::after {
   content: "до";
   position: absolute;
-  bottom: 16px;
+  top: 50px;
   right: 14px;
   opacity: 0.3;
 }
@@ -614,7 +616,7 @@ body {
 }
 
 .main-inner-container {
-  padding: 35px 70px 70px;
+  padding: 35px 70px 63px;
 }
 
 .inner-header-title {
