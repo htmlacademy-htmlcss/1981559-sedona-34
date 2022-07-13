@@ -198,6 +198,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  max-width: 150px;
 }
 
 .navigation-item .brown-button {
@@ -644,6 +645,8 @@ body {
   margin-top: 30px;
   font-size: 22px;
   line-height: 26px;
+  padding-left: 273px;
+  padding-right: 273px;
 }
 
 .sorting {
@@ -958,6 +961,10 @@ body {
   margin-right: 27px;
 }
 
+.footer-number-adress {
+  max-width: 450px;
+}
+
 .footer-number-link {
   color: #000000;
   text-decoration: none;
@@ -1001,11 +1008,11 @@ body {
 
 /* Фильтр */
 .inner-header {
-  background-color: #F2F2F2;
   color: #FFFFFF;
   background-image: url("../images/breadcrumbs/filter-backgrund.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #000000;
 }
 
 .inner-header-title {
@@ -1143,7 +1150,7 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   width: 280px;
-  padding: 14px 20px;
+  padding: 14px 40px 20px 14px;
   margin-right: 78px;
   cursor: pointer;
   appearance: none;
@@ -1241,7 +1248,7 @@ body {
   font-size: 18px;
   color: #333333;
   width: 160px;
-  padding: 14px 20px;
+  padding: 14px 40px 14px 20px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
