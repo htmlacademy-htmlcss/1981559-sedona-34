@@ -737,6 +737,7 @@ body {
   display: flex;
   background-color: #FFFFFF;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .aditional-advantages-item {
@@ -938,11 +939,17 @@ body {
   margin: 0;
   display: flex;
   list-style-type: none;
+  flex-wrap: wrap;
+  max-width: 160px;
 }
 
 .footer-social-item {
   min-width: 18px;
   min-height: 14px;
+}
+
+.footer-social-item:nth-child(n+4) {
+  margin-top: 10px;
 }
 
 .footer-social-link {
