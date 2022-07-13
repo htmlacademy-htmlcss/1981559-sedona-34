@@ -319,9 +319,14 @@ body {
   padding: 14px 15px;
 }
 
+.submit-discard-buttons .blue-button:nth-of-type(n+2) {
+  margin-bottom: 10px;
+}
+
 /* Настройка фильтра */
 .filter-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .hotels-filter {
@@ -1038,6 +1043,7 @@ body {
   margin-top: 10px;
   display: flex;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs-item:not(:last-child) {
