@@ -890,6 +890,7 @@ body {
 .pagination {
   margin: 0;
   padding: 0;
+  margin-right: 30px;
   list-style-type: none;
   display: flex;
 }
@@ -1239,8 +1240,14 @@ body {
 }
 
 /* Гостиниц на странице */
+.number-of-hottels-container {
+  display: flex;
+  align-items: center;
+}
+
 .number-of-hottels {
   color: #333333;
+  margin-right: 51px;
 }
 
 .select-number-of-hotels {
@@ -1251,10 +1258,7 @@ body {
   padding: 14px 40px 14px 20px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-}
-
-.number-of-hottels {
-  margin-right: 51px;
+  margin: 0;
 }
 
 /* Модальное окно */
