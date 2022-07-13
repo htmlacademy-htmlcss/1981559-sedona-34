@@ -666,6 +666,7 @@ body {
 .sorting-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .list-of-hotels {
@@ -1135,8 +1136,10 @@ body {
   border: 2px solid #000000;
 }
 
-.sorting-container a:not(:last-child) {
-  margin-right: 8px;
+.show-cards-container {
+  display: grid;
+  grid-template-columns: 48px 48px 48px;
+  gap: 8px;
 }
 
 .selected-sorting-button {
@@ -1175,7 +1178,7 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   width: 280px;
-  padding: 14px 40px 20px 14px;
+  padding: 14px 40px 14px 20px;
   margin-right: 78px;
   cursor: pointer;
   appearance: none;
