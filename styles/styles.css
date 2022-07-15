@@ -725,6 +725,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 102px;
+  box-sizing: border-box;
 }
 
 .item-with-image {
@@ -738,6 +740,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 400px;
+  margin-bottom: 92px;
 }
 
 .aditional-advantages-list {
@@ -757,6 +760,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 81px;
+  box-sizing: border-box;
 }
 
 .aditional.advantages-title {
