@@ -971,8 +971,9 @@ body {
 
 .page-footer-container {
   display: grid;
-  grid-template-columns: 386px 450px 1fr;
+  grid-template-columns: 378px 450px 1fr;
   align-items: center;
+  margin-top: 7px;
 }
 
 .footer-social-list {
@@ -982,6 +983,7 @@ body {
   list-style-type: none;
   flex-wrap: wrap;
   max-width: 160px;
+  margin-left: 12px;
 }
 
 .footer-social-item {
