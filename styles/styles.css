@@ -236,6 +236,10 @@ body {
   background-color: #E5E5E5;
 }
 
+.hotel-card .blue-button {
+  padding: 9px 15px 8px 15px;
+}
+
 .newsletter-form .blue-button {
   font-size: 20px;
   line-height: 36px;
@@ -255,7 +259,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  padding: 0;
+  padding: 9px 15px 8px 15px;
   margin: 0;
 }
 
@@ -1218,6 +1222,7 @@ body {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-content: start;
   column-gap: 20px;
   row-gap: 16px;
 }
@@ -1259,6 +1264,11 @@ body {
 }
 
 /* Звезды */
+.stars {
+  min-width: 140px;
+  min-height: 37px;
+}
+
 .stars-4 {
   background-image: url(../images/hotels/stars/4-stars.svg);
 }
