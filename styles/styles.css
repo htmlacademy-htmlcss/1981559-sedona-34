@@ -662,12 +662,6 @@ body {
   line-height: 26px;
 }
 
-.sorting {
-  display: flex;
-  justify-content: space-between;
-  padding: 62px 72px 56px;
-}
-
 .sorting-container {
   display: flex;
   flex-wrap: wrap;
@@ -679,6 +673,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 18px;
   margin: 0;
+  margin-left: 2px;
   padding: 0;
   list-style-type: none;
 }
@@ -916,6 +911,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 24px;
 }
 
 /* Пагинация */
@@ -1130,6 +1126,9 @@ body {
 .sorting {
   background-color: #FFFFFF;
   color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 72px 56px;
 }
 
 .hotels-found {
@@ -1138,6 +1137,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
+  margin-top: 7px;
 }
 
 .sorting-button {
@@ -1147,7 +1147,8 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   width: 48px;
-  height: 48px;
+  height: 46px;
+  box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1167,7 +1168,7 @@ body {
 
 .show-cards-container {
   display: grid;
-  grid-template-columns: 48px 48px 48px;
+  grid-template-columns: repeat(3, 48px);
   gap: 8px;
 }
 
@@ -1177,7 +1178,8 @@ body {
   align-items: center;
   border-radius: 4px;
   width: 48px;
-  height: 48px;
+  height: 46px;
+  box-sizing: border-box;
   border: 2px solid #000000;
   background-repeat: no-repeat;
   background-position: center;
@@ -1207,14 +1209,15 @@ body {
   line-height: 21px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  width: 280px;
-  padding: 14px 40px 14px 20px;
-  margin-right: 78px;
+  padding: 11px 40px 11px 20px;
+  margin-right: 79px;
   cursor: pointer;
   appearance: none;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 16px top 17px;
+  width: 290px;
+  box-sizing: border-box;
 }
 
 .select-control:hover,
@@ -1317,11 +1320,12 @@ body {
   font-family: inherit;
   font-size: 18px;
   color: #333333;
-  width: 160px;
-  padding: 14px 40px 14px 20px;
+  padding: 10px 35px 13px 18px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   margin: 0;
+  width: 160px;
+  background-position: right 17px top 16px;
 }
 
 /* Модальное окно */
