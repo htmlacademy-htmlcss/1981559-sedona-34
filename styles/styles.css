@@ -282,13 +282,14 @@ body {
 /* Кнопки без фона */
 /* Кнопка сброса без padding, защита от случайного нажатия */
 .transparent-button {
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: none;
   background-color: transparent;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 15px;
   border: none;
   color: #FFFFFF;
   cursor: pointer;
@@ -354,7 +355,7 @@ body {
 .infrastructure-filter-group {
   margin: 0;
   padding: 0;
-  margin-right: 70px;
+  margin-right: 72px;
   border: none;
 }
 
@@ -465,8 +466,7 @@ body {
 /* Поле с ценой */
 .cost {
   width: 288px;
-  margin: 0;
-  margin-right: 70px;
+  margin-right: 67px;
   padding: 0;
   border: none;
   display: grid;
@@ -475,7 +475,7 @@ body {
 
 /* Range */
 .range-scale {
-  margin-top: 32px;
+  margin-top: 29px;
   position: relative;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
@@ -519,14 +519,15 @@ body {
 }
 
 .range-input {
-  margin-top: 34px;
+  margin-top: 33px;
   color: #FFFFFF;
   width: 144px;
   font: inherit;
   background-color: transparent;
   appearance: textfield;
-  padding: 14px;
+  padding: 11px;
   padding-right: 33px;
+  padding-left: 17px;
   outline: none;
   box-sizing: border-box;
 }
@@ -593,7 +594,7 @@ body {
 .catalog-filter-label-left::after {
   content: "от";
   position: absolute;
-  top: 50px;
+  top: 45px;
   right: 14px;
   opacity: 0.3;
 }
@@ -605,8 +606,8 @@ body {
 .catalog-filter-label-right::after {
   content: "до";
   position: absolute;
-  top: 50px;
-  right: 14px;
+  top: 45px;
+  right: 17px;
   opacity: 0.3;
 }
 
@@ -881,7 +882,7 @@ body {
 
 /* Field */
 .field {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   padding: 20px 491px 19px 22px;
