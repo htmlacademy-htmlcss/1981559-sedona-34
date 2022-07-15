@@ -1184,6 +1184,7 @@ body {
 .select-control {
   font-family: inherit;
   font-size: 18px;
+  line-height: 21px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   width: 280px;
