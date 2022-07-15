@@ -733,6 +733,10 @@ body {
   box-sizing: border-box;
 }
 
+.item-without-image .advantages-title {
+  margin-top: 103px;
+}
+
 .item-with-image {
   color: #FFFFFF;
   background-color: #82B3D3;
@@ -773,7 +777,7 @@ body {
 }
 
 .aditional-advantages-description {
-  width: 230px;
+  max-width: 230px;
   margin: 0;
   margin-top: 30px;
 }
