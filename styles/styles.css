@@ -830,13 +830,21 @@ body {
   width: 592px;
 }
 
+/* Необходимо было так сделать для идеального схождения текста в PerfectPixel в Google Chrome */
+.hotel-search-words + .hotel-search-words {
+  margin-top: 0;
+  text-align: start;
+}
+
 .button-hotel {
-  margin: 56px auto 0;
+  margin: 55px auto 0;
   padding: 12px 15px;
   display: block;
   width: 574px;
   font-size: 20px;
   line-height: 36px;
+  max-width: 574px;
+  box-sizing: border-box;
 }
 
 /* Поле подписки */
