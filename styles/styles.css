@@ -512,7 +512,7 @@ body {
   font: inherit;
   background-color: transparent;
   -webkit-appearance: textfield;
-          appearance: textfield;
+  appearance: textfield;
   padding: 11px;
   padding-right: 33px;
   padding-left: 17px;
@@ -568,7 +568,7 @@ body {
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -1195,7 +1195,7 @@ body {
   margin-right: 79px;
   cursor: pointer;
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 16px top 17px;
