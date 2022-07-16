@@ -402,7 +402,7 @@ body {
   left: 4px;
   width: 13px;
   height: 10px;
-  background-image: url(../images/chekbox-mark.svg);
+  background-image: url("../images/chekbox-mark.svg");
   content: "";
 }
 
@@ -1171,15 +1171,15 @@ body {
 }
 
 .show-cards {
-  background-image: url(../images/sorting/show-cards.svg);
+  background-image: url("../images/sorting/show-cards.svg");
 }
 
 .show-slides {
-  background-image: url(../images/sorting/show-slides.svg);
+  background-image: url("../images/sorting/show-slides.svg");
 }
 
 .show-icons {
-  background-image: url(../images/sorting/show-icons.svg);
+  background-image: url("../images/sorting/show-icons.svg");
 }
 
 /* Селектор для сортировки по ценнику */
@@ -1274,15 +1274,15 @@ body {
 }
 
 .stars-4 {
-  background-image: url(../images/hotels/stars/4-stars.svg);
+  background-image: url("../images/hotels/stars/4-stars.svg");
 }
 
 .stars-3 {
-  background-image: url(../images/hotels/stars/3-stars.svg);
+  background-image: url("../images/hotels/stars/3-stars.svg");
 }
 
 .stars-2 {
-  background-image: url(../images/hotels/stars/2-stars.svg);
+  background-image: url("../images/hotels/stars/2-stars.svg");
 }
 
 /* Гостиниц на странице */
@@ -1392,7 +1392,7 @@ body {
   content: "";
   width: 15px;
   height: 15px;
-  background-image: url(../images/calendar-icom.svg);
+  background-image: url("../images/calendar-icom.svg");
   background-repeat: no-repeat;
   opacity: 0.5;
   top: 18px;
@@ -1404,7 +1404,7 @@ body {
   content: "";
   width: 15px;
   height: 15px;
-  background-image: url(../images/calendar-icom.svg);
+  background-image: url("../images/calendar-icom.svg");
   background-repeat: no-repeat;
   opacity: 0.5;
   top: 100px;
@@ -1571,7 +1571,7 @@ body {
   width: 25px;
   height: 25px;
   background-color: #83B3D3;
-  background-image: url(../images/information-icon.svg);
+  background-image: url("../images/information-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
