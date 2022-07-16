@@ -511,7 +511,8 @@ body {
   width: 144px;
   font: inherit;
   background-color: transparent;
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
   padding: 11px;
   padding-right: 33px;
   padding-left: 17px;
@@ -566,7 +567,8 @@ body {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1192,7 +1194,8 @@ body {
   padding: 11px 40px 11px 20px;
   margin-right: 79px;
   cursor: pointer;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 16px top 17px;
@@ -1544,7 +1547,6 @@ body {
 
 /* Убираю стрелки инпута взрослых */
 .auth-adults-field[type="number"] {
-  -moz-appearance: textfield;
   -webkit-appearance: textfield;
   appearance: textfield;
 }
@@ -1638,7 +1640,6 @@ body {
 
 /* Убираю стрелки инпута детей */
 .auth-children-field[type="number"] {
-  -moz-appearance: textfield;
   -webkit-appearance: textfield;
   appearance: textfield;
 }
