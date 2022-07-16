@@ -575,24 +575,23 @@ body {
   position: relative;
 }
 
-.catalog-filter-label-left::after {
-  content: "от";
+.range-signature {
   position: absolute;
+  opacity: 0.3;
+}
+
+.from {
   top: 45px;
   right: 14px;
-  opacity: 0.3;
+}
+
+.to {
+  top: 45px;
+  right: 17px;
 }
 
 .catalog-filter-label-right {
   position: relative;
-}
-
-.catalog-filter-label-right::after {
-  content: "до";
-  position: absolute;
-  top: 45px;
-  right: 17px;
-  opacity: 0.3;
 }
 
 /* Основное содержание страницы */
