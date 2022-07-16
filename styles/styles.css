@@ -833,6 +833,7 @@ body {
   background-image: url("../images/subscribe-backgrund.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #756157;
 }
 
 .newsletter-title {
@@ -1041,7 +1042,7 @@ body {
   background-image: url("../images/breadcrumbs/filter-backgrund.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #000000;
+  background-color: #756157;
 }
 
 .inner-header-title {
