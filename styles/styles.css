@@ -562,7 +562,6 @@ body {
 .left-input:active,
 .right-input:active {
   background-color: #756257;
-  ;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -884,7 +883,6 @@ body {
 
 .field:disabled {
   outline: 2px solid rgba(0, 0, 0, 0.3);
-  ;
 }
 
 .field:active {
