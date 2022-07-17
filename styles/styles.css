@@ -255,7 +255,7 @@ body {
 }
 
 .green-button:hover {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
 }
 
 .green-button:active {
@@ -1356,7 +1356,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .modal-close-button:hover {
