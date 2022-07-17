@@ -159,13 +159,15 @@
                   <fieldset class="cost">
                     <legend class="filter-title">Стоимость, ₽:</legend>
                     <label class="catalog-filter-label-left">
-                      <input class="range-input left-input" type="number" value="50" name="min-price">
+                      <span class="range-signature from">от</span>
+                      <input class="range-input left-input" type="number" value="0" name="min-price">
                     </label>
                     <label class="catalog-filter-label-right">
-                      <input class="range-input right-input" type="number" value="1500" name="max-price">
+                      <span class="range-signature to">до</span>
+                      <input class="range-input right-input" type="number" value="9000" name="max-price">
                     </label>
                     <div class="range-scale">
-                      <div class="range-bar" style="left: 0; width: 228px">
+                      <div class="range-bar" style="left: 0; width: 236px">
                         <button class="range-toggle toggle-min">
                           <span class="visually-hidden">Изменить минимальную цену.</span>
                         </button>
@@ -201,22 +203,22 @@
             </select>
 
             <div class="show-cards-container">
-            <a class="selected-sorting-button show-cards" href="#">
-              <span class="visually-hidden">
-                Показать карточки
-              </span>
-            </a>
-            <a class="sorting-button show-slides" href="#">
-              <span class="visually-hidden">
-                Показать слайды
-              </span>
-            </a>
-            <a class="sorting-button show-icons" href="#">
-              <span class="visually-hidden">
-                Вконтакте
-              </span>
-            </a>
-          </div>
+              <a class="selected-sorting-button show-cards" href="#">
+                <span class="visually-hidden">
+                  Показать карточки
+                </span>
+              </a>
+              <a class="sorting-button show-slides" href="#">
+                <span class="visually-hidden">
+                  Показать слайды
+                </span>
+              </a>
+              <a class="sorting-button show-icons" href="#">
+                <span class="visually-hidden">
+                  Вконтакте
+                </span>
+              </a>
+            </div>
           </div>
         </section>
 
@@ -398,6 +400,7 @@
           </address>
 
           <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+            <span class="visually-hidden">Ссылка на htmlacademy.</span>
             <svg aria-hidden="true" focusable="false" width="115" height="33" viewBox="0 0 115 33" fill="currentColor"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -408,7 +411,7 @@
       </footer>
       <div class="modal-container modal-container-close">
         <div class="modal">
-          <button class="modal-close-button">
+          <button class="modal-close-button" type="button">
             <span class="visually-hidden">Закрыть</span>
             <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path
